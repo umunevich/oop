@@ -1,0 +1,1 @@
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\CellCraft.csproj;x64
