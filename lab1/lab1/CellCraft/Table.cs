@@ -41,11 +41,19 @@ namespace CellCraft {
     }
 
     internal class Cell {
-        public double value { get; }
-        public string? formula {get;}
+        public double value { get; set; }
+        private string? formula { get; set; }
 
         public Cell(double value = 0, string formula = "") { }
-
+        public void SetValue(string content) {
+            if (double.TryParse(content, out double result)) {
+                value = result;
+                formula = null;
+            }
+            else {
+                formula = content;
+            }
+        }
     }
 
 }

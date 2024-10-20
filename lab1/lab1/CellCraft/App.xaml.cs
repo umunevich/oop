@@ -4,7 +4,7 @@
 
         public App() {
             InitializeComponent();
-            Table.GetTable();
+            var table = Table.GetTable();
             MainPage = new AppShell();
         }
     }

@@ -4,8 +4,6 @@ using Grid = Microsoft.Maui.Controls.Grid;
 
 namespace CellCraft {
     public partial class MainPage : ContentPage {
-        const int countCol = 1;
-        const int countRow = 1;
 
         public MainPage() {
             InitializeComponent();
@@ -25,7 +23,7 @@ namespace CellCraft {
             };
             grid.Add(label, 0, 0);
 
-            for (int col = 1; col < countCol + 1; col++) {
+            for (int col = 1; col < Table.GetTable().ColumnLength() + 1; col++) {
                 
                 if (col > 0) {
                     label = new Label() {
@@ -40,7 +38,7 @@ namespace CellCraft {
 
         private void AddRowsAndCellEntries() {
             
-            for (int row = 1; row < countRow + 1; row++) {
+            for (int row = 1; row < Table.GetTable().RowLength() + 1; row++) {
                 
                 var label = new Label() {
                     Text = (row).ToString(),
@@ -49,7 +47,7 @@ namespace CellCraft {
                 };
                 grid.Add(label, 0, row);
 
-                for (int col = 1; col < countCol + 1; col++) {
+                for (int col = 1; col < Table.GetTable().ColumnLength() + 1; col++) {
                     var entry = new Entry {
                         Text = "",
                         VerticalOptions = LayoutOptions.Fill,
@@ -58,7 +56,6 @@ namespace CellCraft {
                     entry.Unfocused += Entry_Unfocused;
                     grid.Add(entry, col, row);
                 }
-
             }
         }
             
@@ -67,6 +64,8 @@ namespace CellCraft {
             var row = Grid.GetRow(entry) - 1;
             var column = Grid.GetColumn(entry) - 1;
             var content = entry.Text;
+
+            Table.GetTable().cells[row][column].SetValue(content);
         }
             
 
@@ -88,9 +87,17 @@ namespace CellCraft {
 
         
 
-        private void SaveButton_Clicked(object sender, EventArgs e) { }
+        private void SaveButton_Clicked(object sender, EventArgs e) {
+            for (int i = 0; i < Table.GetTable().RowLength(); i++) {
+                for (int j = 0; j < Table.GetTable().ColumnLength(); j++) {
+                    Debug.Write(Table.GetTable().cells[i][j].value, " ");
+                }
+                Debug.WriteLine(" ");
+            }
+        }
 
         private void AddRowButton_Clicked(object sender, EventArgs e) {
+            // Add number of row
             var row = grid.RowDefinitions.Count();
             var label = new Label {
                 Text = (row).ToString(),
@@ -98,37 +105,33 @@ namespace CellCraft {
                 VerticalOptions = LayoutOptions.Center
             };
             grid.Add(label, 0, row);
-
+            
+            // Add entries
             for (int col = 1; col < grid.ColumnDefinitions.Count(); col++) {
                 var entry = new Entry() {
                     Text = "",
                     VerticalOptions = LayoutOptions.Fill,
                     HorizontalOptions = LayoutOptions.Fill
                 };
+                entry.Unfocused += Entry_Unfocused;
                 grid.Add(entry, col, row);
             }
-        }
-        public int i = 0;
-        private void DeleteRowButton_Clicked(object sender, EventArgs e) {
-            if (grid.RowDefinitions.Count() > 1) {
-                int lastRowIndex = grid.RowDefinitions.Count() - 1;
-                //table.RowDefinitions.RemoveAt(lastRowIndex);
-                    grid.Children.RemoveAt(i);
-                    Debug.WriteLine(i);
-               
-                    
-               
-                
-                /*for (int col = 0; col < 1*//*table.ColumnDefinitions.Count()*//*; col++) {
-                    Debug.WriteLine((lastRowIndex * (table.ColumnDefinitions.Count())) + col );
 
-                    table.RemoveAt((lastRowIndex * (table.ColumnDefinitions.Count())) + col );
-                    Thread.Sleep(1000);
-                }*/
+            // Add row in table instance
+            var column = grid.ColumnDefinitions.Count();
+            var newRow = new List<Cell>(column);
+            for (int col = 0; col < column; col++) {
+                newRow.Add(new Cell());
             }
+            Table.GetTable().cells.Add(newRow);
+        }
+
+        private void DeleteRowButton_Clicked(object sender, EventArgs e) {
+            
         }
 
         private void AddColumnButton_Clicked(object sender, EventArgs e) { 
+            // Add name of column
             var column = grid.ColumnDefinitions.Count();
             var label = new Label {
                 Text = GetColumnName(column),
@@ -137,13 +140,20 @@ namespace CellCraft {
             };
             grid.Add(label, column, 0);
 
+            // Add entries
             for (int row = 1; row < grid.RowDefinitions.Count(); row++) {
                 var entry = new Entry() {
                     Text = "",
                     VerticalOptions = LayoutOptions.Fill,
                     HorizontalOptions = LayoutOptions.Fill
                 };
+                entry.Unfocused += Entry_Unfocused;
                 grid.Add(entry, column, row);
+            }
+
+            // Add column in table instance
+            for (int row = 0; row < grid.RowDefinitions.Count() - 1; row++) {
+                Table.GetTable().cells[row].Add(new Cell());
             }
         }
 
