@@ -1,0 +1,6 @@
+D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\obj\Debug\net8.0\CellCraftCalculatorLexer.cs
+D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\obj\Debug\net8.0\CellCraftCalculatorParser.cs
+D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\obj\Debug\net8.0\CellCraftCalculatorListener.cs
+D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\obj\Debug\net8.0\CellCraftCalculatorBaseListener.cs
+D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\obj\Debug\net8.0\CellCraftCalculatorVisitor.cs
+D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\obj\Debug\net8.0\CellCraftCalculatorBaseVisitor.cs

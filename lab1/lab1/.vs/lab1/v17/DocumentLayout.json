@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\cellcraftcalculator.g4||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\cellcraftcalculator.g4||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1564,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +66,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CellCraftCalculator.g4",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\CellCraftCalculator.g4",
+              "RelativeDocumentMoniker": "Calculator\\CellCraftCalculator.g4",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\CellCraftCalculator.g4",
+              "RelativeToolTip": "Calculator\\CellCraftCalculator.g4",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-22T20:31:31.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Calculator.csproj",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\Calculator.csproj",
+              "RelativeDocumentMoniker": "Calculator\\Calculator.csproj",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\Calculator.csproj",
+              "RelativeToolTip": "Calculator\\Calculator.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-22T20:28:44.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\Calculator.cs",
+              "RelativeToolTip": "Calculator\\Calculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:27:09.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Table.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\Table.cs",
               "RelativeDocumentMoniker": "CellCraft\\Table.cs",
@@ -62,38 +113,35 @@
               "RelativeToolTip": "CellCraft\\Table.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAuwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T18:22:40.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T18:22:40.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Styles.xaml",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "CellCraft\\Resources\\Styles\\Styles.xaml",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\Resources\\Styles\\Styles.xaml",
               "RelativeToolTip": "CellCraft\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHcAAAA5AAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAIBJwHcAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-19T11:12:46.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T11:12:46.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "CellCraft\\MainPage.xaml.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MainPage.xaml.cs",
               "RelativeToolTip": "CellCraft\\MainPage.xaml.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAIwHcAAAAAAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAUwEsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:20:43.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T08:20:43.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "CellCraft\\AppShell.xaml.cs",
@@ -105,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\App.xaml.cs",
               "RelativeDocumentMoniker": "CellCraft\\App.xaml.cs",
@@ -113,12 +161,11 @@
               "RelativeToolTip": "CellCraft\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:03:22.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T08:03:22.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\AppShell.xaml",
               "RelativeDocumentMoniker": "CellCraft\\AppShell.xaml",
@@ -126,12 +173,11 @@
               "RelativeToolTip": "CellCraft\\AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T08:03:03.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T08:03:03.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MauiProgram.cs",
               "RelativeDocumentMoniker": "CellCraft\\MauiProgram.cs",
@@ -143,16 +189,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MainPage.xaml",
               "RelativeDocumentMoniker": "CellCraft\\MainPage.xaml",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MainPage.xaml",
               "RelativeToolTip": "CellCraft\\MainPage.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAcAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T07:07:23.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T07:07:23.546Z"
             }
           ]
         }
