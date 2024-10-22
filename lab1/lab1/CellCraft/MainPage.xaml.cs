@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Data;
+using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using Grid = Microsoft.Maui.Controls.Grid;
 
@@ -23,7 +24,7 @@ namespace CellCraft {
             };
             grid.Add(label, 0, 0);
 
-            for (int col = 1; col < Table.GetTable().ColumnLength() + 1; col++) {
+            for (int col = 1; col < Table.GetTable().RowLength() + 1; col++) {
                 
                 if (col > 0) {
                     label = new Label() {
@@ -38,7 +39,7 @@ namespace CellCraft {
 
         private void AddRowsAndCellEntries() {
             
-            for (int row = 1; row < Table.GetTable().RowLength() + 1; row++) {
+            for (int row = 1; row < Table.GetTable().ColumnLength() + 1; row++) {
                 
                 var label = new Label() {
                     Text = (row).ToString(),
@@ -47,7 +48,7 @@ namespace CellCraft {
                 };
                 grid.Add(label, 0, row);
 
-                for (int col = 1; col < Table.GetTable().ColumnLength() + 1; col++) {
+                for (int col = 1; col < Table.GetTable().RowLength() + 1; col++) {
                     var entry = new Entry {
                         Text = "",
                         VerticalOptions = LayoutOptions.Fill,
@@ -65,7 +66,7 @@ namespace CellCraft {
             var column = Grid.GetColumn(entry) - 1;
             var content = entry.Text;
 
-            Table.GetTable().cells[row][column].SetValue(content);
+            Table.GetTable().GetCell(row, column).SetValue(content);
         }
             
 
@@ -88,9 +89,9 @@ namespace CellCraft {
         
 
         private void SaveButton_Clicked(object sender, EventArgs e) {
-            for (int i = 0; i < Table.GetTable().RowLength(); i++) {
-                for (int j = 0; j < Table.GetTable().ColumnLength(); j++) {
-                    Debug.Write(Table.GetTable().cells[i][j].value, " ");
+            for (int i = 0; i < Table.GetTable().ColumnLength(); i++) {
+                for (int j = 0; j < Table.GetTable().RowLength(); j++) {
+                    Debug.Write(Table.GetTable().GetCell(i, j).value, " ");
                 }
                 Debug.WriteLine(" ");
             }
@@ -118,12 +119,7 @@ namespace CellCraft {
             }
 
             // Add row in table instance
-            var column = grid.ColumnDefinitions.Count();
-            var newRow = new List<Cell>(column);
-            for (int col = 0; col < column; col++) {
-                newRow.Add(new Cell());
-            }
-            Table.GetTable().cells.Add(newRow);
+            Table.GetTable().AddNewRow(grid.ColumnDefinitions.Count() - 1);
         }
 
         private void DeleteRowButton_Clicked(object sender, EventArgs e) {
@@ -152,9 +148,7 @@ namespace CellCraft {
             }
 
             // Add column in table instance
-            for (int row = 0; row < grid.RowDefinitions.Count() - 1; row++) {
-                Table.GetTable().cells[row].Add(new Cell());
-            }
+            Table.GetTable().AddNewColumn(grid.RowDefinitions.Count() - 1);
         }
 
         private void DeleteColumnButton_Clicked(object sender, EventArgs e) { }
