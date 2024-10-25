@@ -36,9 +36,9 @@ public partial class CellCraftCalculatorParser : Parser {
 		OP_GREATER=13, OP_LESS_EQUAL=14, OP_GREATER_EQUAL=15, OP_NOT_EQUAL=16, 
 		LPAREN=17, RPAREN=18, WS=19;
 	public const int
-		RULE_compileUnit = 0, RULE_expression = 1;
+		RULE_compileUnit = 0, RULE_expression = 1, RULE_operand = 2;
 	public static readonly string[] ruleNames = {
-		"compileUnit", "expression"
+		"compileUnit", "expression", "operand"
 	};
 
 	private static readonly string[] _LiteralNames = {
@@ -133,8 +133,8 @@ public partial class CellCraftCalculatorParser : Parser {
 		try {
 			EnterOuterAlt(_localctx, 1);
 			{
-			State = 4; expression(0);
-			State = 5; Match(Eof);
+			State = 6; expression();
+			State = 7; Match(Eof);
 			}
 		}
 		catch (RecognitionException re) {
@@ -149,119 +149,12 @@ public partial class CellCraftCalculatorParser : Parser {
 	}
 
 	public partial class ExpressionContext : ParserRuleContext {
-		public ExpressionContext(ParserRuleContext parent, int invokingState)
-			: base(parent, invokingState)
-		{
-		}
-		public override int RuleIndex { get { return RULE_expression; } }
-	 
-		public ExpressionContext() { }
-		public virtual void CopyFrom(ExpressionContext context) {
-			base.CopyFrom(context);
-		}
-	}
-	public partial class MultiplicativeExprContext : ExpressionContext {
 		public IToken operatorToken;
-		public ExpressionContext[] expression() {
-			return GetRuleContexts<ExpressionContext>();
+		public OperandContext[] operand() {
+			return GetRuleContexts<OperandContext>();
 		}
-		public ExpressionContext expression(int i) {
-			return GetRuleContext<ExpressionContext>(i);
-		}
-		public ITerminalNode OP_MULTIPLY() { return GetToken(CellCraftCalculatorParser.OP_MULTIPLY, 0); }
-		public ITerminalNode OP_DIVIDE() { return GetToken(CellCraftCalculatorParser.OP_DIVIDE, 0); }
-		public MultiplicativeExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterMultiplicativeExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitMultiplicativeExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitMultiplicativeExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class IncrementExprContext : ExpressionContext {
-		public IToken operatorToken;
-		public ExpressionContext expression() {
-			return GetRuleContext<ExpressionContext>(0);
-		}
-		public ITerminalNode OP_INC() { return GetToken(CellCraftCalculatorParser.OP_INC, 0); }
-		public ITerminalNode OP_DEC() { return GetToken(CellCraftCalculatorParser.OP_DEC, 0); }
-		public IncrementExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterIncrementExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitIncrementExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitIncrementExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class ExponentialExprContext : ExpressionContext {
-		public ExpressionContext[] expression() {
-			return GetRuleContexts<ExpressionContext>();
-		}
-		public ExpressionContext expression(int i) {
-			return GetRuleContext<ExpressionContext>(i);
-		}
-		public ITerminalNode OP_EXPONENT() { return GetToken(CellCraftCalculatorParser.OP_EXPONENT, 0); }
-		public ExponentialExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterExponentialExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitExponentialExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitExponentialExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class AdditiveExprContext : ExpressionContext {
-		public IToken operatorToken;
-		public ExpressionContext[] expression() {
-			return GetRuleContexts<ExpressionContext>();
-		}
-		public ExpressionContext expression(int i) {
-			return GetRuleContext<ExpressionContext>(i);
-		}
-		public ITerminalNode OP_ADD() { return GetToken(CellCraftCalculatorParser.OP_ADD, 0); }
-		public ITerminalNode OP_SUBTRACT() { return GetToken(CellCraftCalculatorParser.OP_SUBTRACT, 0); }
-		public AdditiveExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterAdditiveExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitAdditiveExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitAdditiveExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class CompareExprContext : ExpressionContext {
-		public IToken operatorToken;
-		public ExpressionContext[] expression() {
-			return GetRuleContexts<ExpressionContext>();
-		}
-		public ExpressionContext expression(int i) {
-			return GetRuleContext<ExpressionContext>(i);
+		public OperandContext operand(int i) {
+			return GetRuleContext<OperandContext>(i);
 		}
 		public ITerminalNode OP_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_EQUAL, 0); }
 		public ITerminalNode OP_LESS() { return GetToken(CellCraftCalculatorParser.OP_LESS, 0); }
@@ -269,129 +162,277 @@ public partial class CellCraftCalculatorParser : Parser {
 		public ITerminalNode OP_LESS_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_LESS_EQUAL, 0); }
 		public ITerminalNode OP_GREATER_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_GREATER_EQUAL, 0); }
 		public ITerminalNode OP_NOT_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_NOT_EQUAL, 0); }
-		public CompareExprContext(ExpressionContext context) { CopyFrom(context); }
+		public ExpressionContext(ParserRuleContext parent, int invokingState)
+			: base(parent, invokingState)
+		{
+		}
+		public override int RuleIndex { get { return RULE_expression; } }
 		public override void EnterRule(IParseTreeListener listener) {
 			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterCompareExpr(this);
+			if (typedListener != null) typedListener.EnterExpression(this);
 		}
 		public override void ExitRule(IParseTreeListener listener) {
 			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitCompareExpr(this);
+			if (typedListener != null) typedListener.ExitExpression(this);
 		}
 		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
 			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitCompareExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class NumberExprContext : ExpressionContext {
-		public ITerminalNode NUMBER() { return GetToken(CellCraftCalculatorParser.NUMBER, 0); }
-		public NumberExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterNumberExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitNumberExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitNumberExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class IdentifierExprContext : ExpressionContext {
-		public ITerminalNode IDENTIFIER() { return GetToken(CellCraftCalculatorParser.IDENTIFIER, 0); }
-		public IdentifierExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterIdentifierExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitIdentifierExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitIdentifierExpr(this);
-			else return visitor.VisitChildren(this);
-		}
-	}
-	public partial class ParenthesizedExprContext : ExpressionContext {
-		public ITerminalNode LPAREN() { return GetToken(CellCraftCalculatorParser.LPAREN, 0); }
-		public ExpressionContext expression() {
-			return GetRuleContext<ExpressionContext>(0);
-		}
-		public ITerminalNode RPAREN() { return GetToken(CellCraftCalculatorParser.RPAREN, 0); }
-		public ParenthesizedExprContext(ExpressionContext context) { CopyFrom(context); }
-		public override void EnterRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterParenthesizedExpr(this);
-		}
-		public override void ExitRule(IParseTreeListener listener) {
-			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitParenthesizedExpr(this);
-		}
-		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
-			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitParenthesizedExpr(this);
+			if (typedVisitor != null) return typedVisitor.VisitExpression(this);
 			else return visitor.VisitChildren(this);
 		}
 	}
 
 	[RuleVersion(0)]
 	public ExpressionContext expression() {
-		return expression(0);
+		ExpressionContext _localctx = new ExpressionContext(_ctx, State);
+		EnterRule(_localctx, 2, RULE_expression);
+		int _la;
+		try {
+			EnterOuterAlt(_localctx, 1);
+			{
+			State = 9; operand(0);
+			State = 10;
+			_localctx.operatorToken = _input.Lt(1);
+			_la = _input.La(1);
+			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << OP_EQUAL) | (1L << OP_LESS) | (1L << OP_GREATER) | (1L << OP_LESS_EQUAL) | (1L << OP_GREATER_EQUAL) | (1L << OP_NOT_EQUAL))) != 0)) ) {
+				_localctx.operatorToken = _errHandler.RecoverInline(this);
+			} else {
+				if (_input.La(1) == TokenConstants.Eof) {
+					matchedEOF = true;
+				}
+
+				_errHandler.ReportMatch(this);
+				Consume();
+			}
+			State = 11; operand(0);
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.ReportError(this, re);
+			_errHandler.Recover(this, re);
+		}
+		finally {
+			ExitRule();
+		}
+		return _localctx;
 	}
 
-	private ExpressionContext expression(int _p) {
+	public partial class OperandContext : ParserRuleContext {
+		public OperandContext(ParserRuleContext parent, int invokingState)
+			: base(parent, invokingState)
+		{
+		}
+		public override int RuleIndex { get { return RULE_operand; } }
+	 
+		public OperandContext() { }
+		public virtual void CopyFrom(OperandContext context) {
+			base.CopyFrom(context);
+		}
+	}
+	public partial class ExponentialOperandContext : OperandContext {
+		public OperandContext[] operand() {
+			return GetRuleContexts<OperandContext>();
+		}
+		public OperandContext operand(int i) {
+			return GetRuleContext<OperandContext>(i);
+		}
+		public ITerminalNode OP_EXPONENT() { return GetToken(CellCraftCalculatorParser.OP_EXPONENT, 0); }
+		public ExponentialOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterExponentialOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitExponentialOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitExponentialOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+	public partial class MultiplicativeOperandContext : OperandContext {
+		public IToken operatorToken;
+		public OperandContext[] operand() {
+			return GetRuleContexts<OperandContext>();
+		}
+		public OperandContext operand(int i) {
+			return GetRuleContext<OperandContext>(i);
+		}
+		public ITerminalNode OP_MULTIPLY() { return GetToken(CellCraftCalculatorParser.OP_MULTIPLY, 0); }
+		public ITerminalNode OP_DIVIDE() { return GetToken(CellCraftCalculatorParser.OP_DIVIDE, 0); }
+		public MultiplicativeOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterMultiplicativeOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitMultiplicativeOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitMultiplicativeOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+	public partial class IncrementOperandContext : OperandContext {
+		public IToken operatorToken;
+		public OperandContext operand() {
+			return GetRuleContext<OperandContext>(0);
+		}
+		public ITerminalNode OP_INC() { return GetToken(CellCraftCalculatorParser.OP_INC, 0); }
+		public ITerminalNode OP_DEC() { return GetToken(CellCraftCalculatorParser.OP_DEC, 0); }
+		public IncrementOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterIncrementOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitIncrementOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitIncrementOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+	public partial class AdditiveOperandContext : OperandContext {
+		public IToken operatorToken;
+		public OperandContext[] operand() {
+			return GetRuleContexts<OperandContext>();
+		}
+		public OperandContext operand(int i) {
+			return GetRuleContext<OperandContext>(i);
+		}
+		public ITerminalNode OP_ADD() { return GetToken(CellCraftCalculatorParser.OP_ADD, 0); }
+		public ITerminalNode OP_SUBTRACT() { return GetToken(CellCraftCalculatorParser.OP_SUBTRACT, 0); }
+		public AdditiveOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterAdditiveOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitAdditiveOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitAdditiveOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+	public partial class IdentifierOperandContext : OperandContext {
+		public ITerminalNode IDENTIFIER() { return GetToken(CellCraftCalculatorParser.IDENTIFIER, 0); }
+		public IdentifierOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterIdentifierOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitIdentifierOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitIdentifierOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+	public partial class ParenthesizedOperandContext : OperandContext {
+		public ITerminalNode LPAREN() { return GetToken(CellCraftCalculatorParser.LPAREN, 0); }
+		public OperandContext operand() {
+			return GetRuleContext<OperandContext>(0);
+		}
+		public ITerminalNode RPAREN() { return GetToken(CellCraftCalculatorParser.RPAREN, 0); }
+		public ParenthesizedOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterParenthesizedOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitParenthesizedOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitParenthesizedOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+	public partial class NumberOperandContext : OperandContext {
+		public ITerminalNode NUMBER() { return GetToken(CellCraftCalculatorParser.NUMBER, 0); }
+		public NumberOperandContext(OperandContext context) { CopyFrom(context); }
+		public override void EnterRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.EnterNumberOperand(this);
+		}
+		public override void ExitRule(IParseTreeListener listener) {
+			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
+			if (typedListener != null) typedListener.ExitNumberOperand(this);
+		}
+		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
+			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
+			if (typedVisitor != null) return typedVisitor.VisitNumberOperand(this);
+			else return visitor.VisitChildren(this);
+		}
+	}
+
+	[RuleVersion(0)]
+	public OperandContext operand() {
+		return operand(0);
+	}
+
+	private OperandContext operand(int _p) {
 		ParserRuleContext _parentctx = _ctx;
 		int _parentState = State;
-		ExpressionContext _localctx = new ExpressionContext(_ctx, _parentState);
-		ExpressionContext _prevctx = _localctx;
-		int _startState = 2;
-		EnterRecursionRule(_localctx, 2, RULE_expression, _p);
+		OperandContext _localctx = new OperandContext(_ctx, _parentState);
+		OperandContext _prevctx = _localctx;
+		int _startState = 4;
+		EnterRecursionRule(_localctx, 4, RULE_operand, _p);
 		int _la;
 		try {
 			int _alt;
 			EnterOuterAlt(_localctx, 1);
 			{
-			State = 14;
+			State = 20;
 			_errHandler.Sync(this);
 			switch (_input.La(1)) {
 			case LPAREN:
 				{
-				_localctx = new ParenthesizedExprContext(_localctx);
+				_localctx = new ParenthesizedOperandContext(_localctx);
 				_ctx = _localctx;
 				_prevctx = _localctx;
 
-				State = 8; Match(LPAREN);
-				State = 9; expression(0);
-				State = 10; Match(RPAREN);
+				State = 14; Match(LPAREN);
+				State = 15; operand(0);
+				State = 16; Match(RPAREN);
 				}
 				break;
 			case NUMBER:
 				{
-				_localctx = new NumberExprContext(_localctx);
+				_localctx = new NumberOperandContext(_localctx);
 				_ctx = _localctx;
 				_prevctx = _localctx;
-				State = 12; Match(NUMBER);
+				State = 18; Match(NUMBER);
 				}
 				break;
 			case IDENTIFIER:
 				{
-				_localctx = new IdentifierExprContext(_localctx);
+				_localctx = new IdentifierOperandContext(_localctx);
 				_ctx = _localctx;
 				_prevctx = _localctx;
-				State = 13; Match(IDENTIFIER);
+				State = 19; Match(IDENTIFIER);
 				}
 				break;
 			default:
 				throw new NoViableAltException(this);
 			}
 			_ctx.stop = _input.Lt(-1);
-			State = 32;
+			State = 35;
 			_errHandler.Sync(this);
 			_alt = Interpreter.AdaptivePredict(_input,2,_ctx);
 			while ( _alt!=2 && _alt!=global::Antlr4.Runtime.Atn.ATN.InvalidAltNumber ) {
@@ -399,20 +440,20 @@ public partial class CellCraftCalculatorParser : Parser {
 					if ( _parseListeners!=null ) TriggerExitRuleEvent();
 					_prevctx = _localctx;
 					{
-					State = 30;
+					State = 33;
 					_errHandler.Sync(this);
 					switch ( Interpreter.AdaptivePredict(_input,1,_ctx) ) {
 					case 1:
 						{
-						_localctx = new AdditiveExprContext(new ExpressionContext(_parentctx, _parentState));
-						PushNewRecursionContext(_localctx, _startState, RULE_expression);
-						State = 16;
-						if (!(Precpred(_ctx, 7))) throw new FailedPredicateException(this, "Precpred(_ctx, 7)");
-						State = 17;
-						((AdditiveExprContext)_localctx).operatorToken = _input.Lt(1);
+						_localctx = new AdditiveOperandContext(new OperandContext(_parentctx, _parentState));
+						PushNewRecursionContext(_localctx, _startState, RULE_operand);
+						State = 22;
+						if (!(Precpred(_ctx, 6))) throw new FailedPredicateException(this, "Precpred(_ctx, 6)");
+						State = 23;
+						((AdditiveOperandContext)_localctx).operatorToken = _input.Lt(1);
 						_la = _input.La(1);
 						if ( !(_la==OP_ADD || _la==OP_SUBTRACT) ) {
-							((AdditiveExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
+							((AdditiveOperandContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
 						} else {
 							if (_input.La(1) == TokenConstants.Eof) {
 								matchedEOF = true;
@@ -421,21 +462,21 @@ public partial class CellCraftCalculatorParser : Parser {
 							_errHandler.ReportMatch(this);
 							Consume();
 						}
-						State = 18; expression(8);
+						State = 24; operand(7);
 						}
 						break;
 
 					case 2:
 						{
-						_localctx = new MultiplicativeExprContext(new ExpressionContext(_parentctx, _parentState));
-						PushNewRecursionContext(_localctx, _startState, RULE_expression);
-						State = 19;
-						if (!(Precpred(_ctx, 6))) throw new FailedPredicateException(this, "Precpred(_ctx, 6)");
-						State = 20;
-						((MultiplicativeExprContext)_localctx).operatorToken = _input.Lt(1);
+						_localctx = new MultiplicativeOperandContext(new OperandContext(_parentctx, _parentState));
+						PushNewRecursionContext(_localctx, _startState, RULE_operand);
+						State = 25;
+						if (!(Precpred(_ctx, 5))) throw new FailedPredicateException(this, "Precpred(_ctx, 5)");
+						State = 26;
+						((MultiplicativeOperandContext)_localctx).operatorToken = _input.Lt(1);
 						_la = _input.La(1);
 						if ( !(_la==OP_MULTIPLY || _la==OP_DIVIDE) ) {
-							((MultiplicativeExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
+							((MultiplicativeOperandContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
 						} else {
 							if (_input.La(1) == TokenConstants.Eof) {
 								matchedEOF = true;
@@ -444,55 +485,32 @@ public partial class CellCraftCalculatorParser : Parser {
 							_errHandler.ReportMatch(this);
 							Consume();
 						}
-						State = 21; expression(7);
+						State = 27; operand(6);
 						}
 						break;
 
 					case 3:
 						{
-						_localctx = new ExponentialExprContext(new ExpressionContext(_parentctx, _parentState));
-						PushNewRecursionContext(_localctx, _startState, RULE_expression);
-						State = 22;
-						if (!(Precpred(_ctx, 5))) throw new FailedPredicateException(this, "Precpred(_ctx, 5)");
-						State = 23; Match(OP_EXPONENT);
-						State = 24; expression(6);
+						_localctx = new ExponentialOperandContext(new OperandContext(_parentctx, _parentState));
+						PushNewRecursionContext(_localctx, _startState, RULE_operand);
+						State = 28;
+						if (!(Precpred(_ctx, 4))) throw new FailedPredicateException(this, "Precpred(_ctx, 4)");
+						State = 29; Match(OP_EXPONENT);
+						State = 30; operand(5);
 						}
 						break;
 
 					case 4:
 						{
-						_localctx = new CompareExprContext(new ExpressionContext(_parentctx, _parentState));
-						PushNewRecursionContext(_localctx, _startState, RULE_expression);
-						State = 25;
+						_localctx = new IncrementOperandContext(new OperandContext(_parentctx, _parentState));
+						PushNewRecursionContext(_localctx, _startState, RULE_operand);
+						State = 31;
 						if (!(Precpred(_ctx, 3))) throw new FailedPredicateException(this, "Precpred(_ctx, 3)");
-						State = 26;
-						((CompareExprContext)_localctx).operatorToken = _input.Lt(1);
-						_la = _input.La(1);
-						if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << OP_EQUAL) | (1L << OP_LESS) | (1L << OP_GREATER) | (1L << OP_LESS_EQUAL) | (1L << OP_GREATER_EQUAL) | (1L << OP_NOT_EQUAL))) != 0)) ) {
-							((CompareExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
-						} else {
-							if (_input.La(1) == TokenConstants.Eof) {
-								matchedEOF = true;
-							}
-
-							_errHandler.ReportMatch(this);
-							Consume();
-						}
-						State = 27; expression(4);
-						}
-						break;
-
-					case 5:
-						{
-						_localctx = new IncrementExprContext(new ExpressionContext(_parentctx, _parentState));
-						PushNewRecursionContext(_localctx, _startState, RULE_expression);
-						State = 28;
-						if (!(Precpred(_ctx, 4))) throw new FailedPredicateException(this, "Precpred(_ctx, 4)");
-						State = 29;
-						((IncrementExprContext)_localctx).operatorToken = _input.Lt(1);
+						State = 32;
+						((IncrementOperandContext)_localctx).operatorToken = _input.Lt(1);
 						_la = _input.La(1);
 						if ( !(_la==OP_INC || _la==OP_DEC) ) {
-							((IncrementExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
+							((IncrementOperandContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
 						} else {
 							if (_input.La(1) == TokenConstants.Eof) {
 								matchedEOF = true;
@@ -506,7 +524,7 @@ public partial class CellCraftCalculatorParser : Parser {
 					}
 					} 
 				}
-				State = 34;
+				State = 37;
 				_errHandler.Sync(this);
 				_alt = Interpreter.AdaptivePredict(_input,2,_ctx);
 			}
@@ -525,41 +543,40 @@ public partial class CellCraftCalculatorParser : Parser {
 
 	public override bool Sempred(RuleContext _localctx, int ruleIndex, int predIndex) {
 		switch (ruleIndex) {
-		case 1: return expression_sempred((ExpressionContext)_localctx, predIndex);
+		case 2: return operand_sempred((OperandContext)_localctx, predIndex);
 		}
 		return true;
 	}
-	private bool expression_sempred(ExpressionContext _localctx, int predIndex) {
+	private bool operand_sempred(OperandContext _localctx, int predIndex) {
 		switch (predIndex) {
-		case 0: return Precpred(_ctx, 7);
+		case 0: return Precpred(_ctx, 6);
 
-		case 1: return Precpred(_ctx, 6);
+		case 1: return Precpred(_ctx, 5);
 
-		case 2: return Precpred(_ctx, 5);
+		case 2: return Precpred(_ctx, 4);
 
 		case 3: return Precpred(_ctx, 3);
-
-		case 4: return Precpred(_ctx, 4);
 		}
 		return true;
 	}
 
 	public static readonly string _serializedATN =
-		"\x3\xAF6F\x8320\x479D\xB75C\x4880\x1605\x191C\xAB37\x3\x15&\x4\x2\t\x2"+
-		"\x4\x3\t\x3\x3\x2\x3\x2\x3\x2\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3"+
-		"\x5\x3\x11\n\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3"+
-		"\x3\x3\x3\x3\x3\x3\x3\x3\x3\x3\a\x3!\n\x3\f\x3\xE\x3$\v\x3\x3\x3\x2\x2"+
-		"\x3\x4\x4\x2\x2\x4\x2\x2\x6\x3\x2\x6\a\x3\x2\b\t\x3\x2\r\x12\x3\x2\v\f"+
-		"*\x2\x6\x3\x2\x2\x2\x4\x10\x3\x2\x2\x2\x6\a\x5\x4\x3\x2\a\b\a\x2\x2\x3"+
-		"\b\x3\x3\x2\x2\x2\t\n\b\x3\x1\x2\n\v\a\x13\x2\x2\v\f\x5\x4\x3\x2\f\r\a"+
-		"\x14\x2\x2\r\x11\x3\x2\x2\x2\xE\x11\a\x3\x2\x2\xF\x11\a\x4\x2\x2\x10\t"+
-		"\x3\x2\x2\x2\x10\xE\x3\x2\x2\x2\x10\xF\x3\x2\x2\x2\x11\"\x3\x2\x2\x2\x12"+
-		"\x13\f\t\x2\x2\x13\x14\t\x2\x2\x2\x14!\x5\x4\x3\n\x15\x16\f\b\x2\x2\x16"+
-		"\x17\t\x3\x2\x2\x17!\x5\x4\x3\t\x18\x19\f\a\x2\x2\x19\x1A\a\n\x2\x2\x1A"+
-		"!\x5\x4\x3\b\x1B\x1C\f\x5\x2\x2\x1C\x1D\t\x4\x2\x2\x1D!\x5\x4\x3\x6\x1E"+
-		"\x1F\f\x6\x2\x2\x1F!\t\x5\x2\x2 \x12\x3\x2\x2\x2 \x15\x3\x2\x2\x2 \x18"+
-		"\x3\x2\x2\x2 \x1B\x3\x2\x2\x2 \x1E\x3\x2\x2\x2!$\x3\x2\x2\x2\" \x3\x2"+
-		"\x2\x2\"#\x3\x2\x2\x2#\x5\x3\x2\x2\x2$\"\x3\x2\x2\x2\x5\x10 \"";
+		"\x3\xAF6F\x8320\x479D\xB75C\x4880\x1605\x191C\xAB37\x3\x15)\x4\x2\t\x2"+
+		"\x4\x3\t\x3\x4\x4\t\x4\x3\x2\x3\x2\x3\x2\x3\x3\x3\x3\x3\x3\x3\x3\x3\x4"+
+		"\x3\x4\x3\x4\x3\x4\x3\x4\x3\x4\x3\x4\x5\x4\x17\n\x4\x3\x4\x3\x4\x3\x4"+
+		"\x3\x4\x3\x4\x3\x4\x3\x4\x3\x4\x3\x4\x3\x4\x3\x4\a\x4$\n\x4\f\x4\xE\x4"+
+		"\'\v\x4\x3\x4\x2\x2\x3\x6\x5\x2\x2\x4\x2\x6\x2\x2\x6\x3\x2\r\x12\x3\x2"+
+		"\x6\a\x3\x2\b\t\x3\x2\v\f+\x2\b\x3\x2\x2\x2\x4\v\x3\x2\x2\x2\x6\x16\x3"+
+		"\x2\x2\x2\b\t\x5\x4\x3\x2\t\n\a\x2\x2\x3\n\x3\x3\x2\x2\x2\v\f\x5\x6\x4"+
+		"\x2\f\r\t\x2\x2\x2\r\xE\x5\x6\x4\x2\xE\x5\x3\x2\x2\x2\xF\x10\b\x4\x1\x2"+
+		"\x10\x11\a\x13\x2\x2\x11\x12\x5\x6\x4\x2\x12\x13\a\x14\x2\x2\x13\x17\x3"+
+		"\x2\x2\x2\x14\x17\a\x3\x2\x2\x15\x17\a\x4\x2\x2\x16\xF\x3\x2\x2\x2\x16"+
+		"\x14\x3\x2\x2\x2\x16\x15\x3\x2\x2\x2\x17%\x3\x2\x2\x2\x18\x19\f\b\x2\x2"+
+		"\x19\x1A\t\x3\x2\x2\x1A$\x5\x6\x4\t\x1B\x1C\f\a\x2\x2\x1C\x1D\t\x4\x2"+
+		"\x2\x1D$\x5\x6\x4\b\x1E\x1F\f\x6\x2\x2\x1F \a\n\x2\x2 $\x5\x6\x4\a!\""+
+		"\f\x5\x2\x2\"$\t\x5\x2\x2#\x18\x3\x2\x2\x2#\x1B\x3\x2\x2\x2#\x1E\x3\x2"+
+		"\x2\x2#!\x3\x2\x2\x2$\'\x3\x2\x2\x2%#\x3\x2\x2\x2%&\x3\x2\x2\x2&\a\x3"+
+		"\x2\x2\x2\'%\x3\x2\x2\x2\x5\x16#%";
 	public static readonly ATN _ATN =
 		new ATNDeserializer().Deserialize(_serializedATN.ToCharArray());
 }

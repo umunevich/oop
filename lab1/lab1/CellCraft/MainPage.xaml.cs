@@ -2,8 +2,11 @@
 using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using Grid = Microsoft.Maui.Controls.Grid;
+using Calculator;
+
 
 namespace CellCraft {
+    using Table = Table.Models.Table;
     public partial class MainPage : ContentPage {
 
         public MainPage() {
@@ -23,8 +26,7 @@ namespace CellCraft {
                 HorizontalOptions = LayoutOptions.Center
             };
             grid.Add(label, 0, 0);
-
-            for (int col = 1; col < Table.GetTable().RowLength() + 1; col++) {
+            for (int col = 1; col < Table.Get().CountColumn + 1; col++) {
                 
                 if (col > 0) {
                     label = new Label() {
@@ -39,7 +41,7 @@ namespace CellCraft {
 
         private void AddRowsAndCellEntries() {
             
-            for (int row = 1; row < Table.GetTable().ColumnLength() + 1; row++) {
+            for (int row = 1; row < Table.Get().CountRow + 1; row++) {
                 
                 var label = new Label() {
                     Text = (row).ToString(),
@@ -48,7 +50,7 @@ namespace CellCraft {
                 };
                 grid.Add(label, 0, row);
 
-                for (int col = 1; col < Table.GetTable().RowLength() + 1; col++) {
+                for (int col = 1; col < Table.Get().CountColumn + 1; col++) {
                     var entry = new Entry {
                         Text = "",
                         VerticalOptions = LayoutOptions.Fill,
@@ -66,12 +68,10 @@ namespace CellCraft {
             var column = Grid.GetColumn(entry) - 1;
             var content = entry.Text;
 
-            Table.GetTable().GetCell(row, column).SetValue(content);
+            //Table.Get().GetCell(row, column).WriteCell(Calculator.Calculator.Evaluate(content).ToString());
+            
         }
             
-
-       
-
         private string GetColumnName(int colIndex) {
             int dividend = colIndex;
             string columnName = string.Empty;
@@ -85,13 +85,10 @@ namespace CellCraft {
             return columnName;
         }
     
-
-        
-
         private void SaveButton_Clicked(object sender, EventArgs e) {
-            for (int i = 0; i < Table.GetTable().ColumnLength(); i++) {
-                for (int j = 0; j < Table.GetTable().RowLength(); j++) {
-                    Debug.Write(Table.GetTable().GetCell(i, j).value, " ");
+            for (int i = 0; i < Table.Get().CountRow; i++) {
+                for (int j = 0; j < Table.Get().CountColumn; j++) {
+                    Debug.Write(Table.Get().GetCell(i, j).Number, " ");
                 }
                 Debug.WriteLine(" ");
             }
@@ -119,11 +116,7 @@ namespace CellCraft {
             }
 
             // Add row in table instance
-            Table.GetTable().AddNewRow(grid.ColumnDefinitions.Count() - 1);
-        }
-
-        private void DeleteRowButton_Clicked(object sender, EventArgs e) {
-            
+            Table.Get().AddNewRow(grid.ColumnDefinitions.Count() - 1);
         }
 
         private void AddColumnButton_Clicked(object sender, EventArgs e) { 
@@ -148,10 +141,8 @@ namespace CellCraft {
             }
 
             // Add column in table instance
-            Table.GetTable().AddNewColumn(grid.RowDefinitions.Count() - 1);
+            Table.Get().AddNewColumn(grid.RowDefinitions.Count() - 1);
         }
-
-        private void DeleteColumnButton_Clicked(object sender, EventArgs e) { }
         private void CalculateButton_Clicked(object sender, EventArgs e) { }
 
         private async void HelpButton_Clicked(object sender, EventArgs e) {
@@ -169,3 +160,13 @@ namespace CellCraft {
     }
 
 }
+
+/*public static void WriteCell(Cell cell, string content) {
+    if (int.TryParse(content, out double result)) {
+        cell.Number = result;
+        cell.Formula = null;
+    }
+    else {
+        cell.Formula = content;
+    }
+}*/

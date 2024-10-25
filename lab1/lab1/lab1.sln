@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CellCraft", "CellCraft\CellCraft.csproj", "{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10} = {05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Table", "Table\Table.shproj", "{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,5 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4583BF5E-2908-4284-9982-0DD9A890A13C}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Table\Table.projitems*{4388f9e1-b8d6-450b-84de-d8bfc8dccb7d}*SharedItemsImports = 5
+		Table\Table.projitems*{505a6d79-0ddf-4a38-9e33-7710dc0eba6e}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

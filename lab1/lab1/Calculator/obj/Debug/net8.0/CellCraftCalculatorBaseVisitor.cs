@@ -35,8 +35,8 @@ using ParserRuleContext = Antlr4.Runtime.ParserRuleContext;
 [System.CLSCompliant(false)]
 public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeVisitor<Result>, ICellCraftCalculatorVisitor<Result> {
 	/// <summary>
-	/// Visit a parse tree produced by the <c>MultiplicativeExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>ExponentialOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -44,11 +44,11 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitMultiplicativeExpr([NotNull] CellCraftCalculatorParser.MultiplicativeExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitExponentialOperand([NotNull] CellCraftCalculatorParser.ExponentialOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
-	/// Visit a parse tree produced by the <c>IncrementExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>MultiplicativeOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -56,11 +56,11 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitIncrementExpr([NotNull] CellCraftCalculatorParser.IncrementExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitMultiplicativeOperand([NotNull] CellCraftCalculatorParser.MultiplicativeOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
-	/// Visit a parse tree produced by the <c>ExponentialExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>IncrementOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -68,11 +68,11 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitExponentialExpr([NotNull] CellCraftCalculatorParser.ExponentialExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitIncrementOperand([NotNull] CellCraftCalculatorParser.IncrementOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
-	/// Visit a parse tree produced by the <c>AdditiveExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>AdditiveOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -80,11 +80,11 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitAdditiveExpr([NotNull] CellCraftCalculatorParser.AdditiveExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitAdditiveOperand([NotNull] CellCraftCalculatorParser.AdditiveOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
-	/// Visit a parse tree produced by the <c>CompareExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>IdentifierOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -92,11 +92,11 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
-	/// Visit a parse tree produced by the <c>NumberExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>ParenthesizedOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -104,11 +104,11 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitNumberExpr([NotNull] CellCraftCalculatorParser.NumberExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitParenthesizedOperand([NotNull] CellCraftCalculatorParser.ParenthesizedOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
-	/// Visit a parse tree produced by the <c>IdentifierExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Visit a parse tree produced by the <c>NumberOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
 	/// on <paramref name="context"/>.
@@ -116,19 +116,7 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
-	public virtual Result VisitIdentifierExpr([NotNull] CellCraftCalculatorParser.IdentifierExprContext context) { return VisitChildren(context); }
-
-	/// <summary>
-	/// Visit a parse tree produced by the <c>ParenthesizedExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
-	/// <para>
-	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
-	/// on <paramref name="context"/>.
-	/// </para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	/// <return>The visitor result.</return>
-	public virtual Result VisitParenthesizedExpr([NotNull] CellCraftCalculatorParser.ParenthesizedExprContext context) { return VisitChildren(context); }
+	public virtual Result VisitNumberOperand([NotNull] CellCraftCalculatorParser.NumberOperandContext context) { return VisitChildren(context); }
 
 	/// <summary>
 	/// Visit a parse tree produced by <see cref="CellCraftCalculatorParser.compileUnit"/>.
@@ -151,5 +139,16 @@ public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeV
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
 	public virtual Result VisitExpression([NotNull] CellCraftCalculatorParser.ExpressionContext context) { return VisitChildren(context); }
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="CellCraftCalculatorParser.operand"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitOperand([NotNull] CellCraftCalculatorParser.OperandContext context) { return VisitChildren(context); }
 }
 } // namespace Calculator

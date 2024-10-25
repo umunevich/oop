@@ -284,6 +284,7 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\io
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.stamp
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.outputs
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.stamp
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
@@ -311,3 +312,6 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\io
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\CellCraft.pdb
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\CellCraft.genruntimeconfig.cache
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-ios\iossimulator-x64\ref\CellCraft.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-ios\iossimulator-x64\Antlr4.Runtime.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-ios\iossimulator-x64\Calculator.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-ios\iossimulator-x64\Calculator.pdb

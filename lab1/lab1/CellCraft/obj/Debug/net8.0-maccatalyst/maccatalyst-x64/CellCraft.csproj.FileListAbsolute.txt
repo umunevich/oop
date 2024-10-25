@@ -1,3 +1,5 @@
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CellCraft.runtimeconfig.json
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CellCraft.dll
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CellCraft.pdb
@@ -226,7 +228,6 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccat
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\icudt_no_CJK.dat
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Globalization.Native.dylib
-D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.dylib
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Native.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSystem.Native.dylib
@@ -251,7 +252,6 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccat
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.dylib
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot-debug.a
-D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
@@ -274,6 +274,7 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccat
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
@@ -299,3 +300,6 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccat
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\CellCraft.pdb
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\CellCraft.genruntimeconfig.cache
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\CellCraft.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Antlr4.Runtime.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Calculator.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Calculator.pdb

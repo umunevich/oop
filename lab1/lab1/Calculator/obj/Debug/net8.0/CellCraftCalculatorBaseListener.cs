@@ -36,124 +36,109 @@ using ParserRuleContext = Antlr4.Runtime.ParserRuleContext;
 [System.CLSCompliant(false)]
 public partial class CellCraftCalculatorBaseListener : ICellCraftCalculatorListener {
 	/// <summary>
-	/// Enter a parse tree produced by the <c>MultiplicativeExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>ExponentialOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterMultiplicativeExpr([NotNull] CellCraftCalculatorParser.MultiplicativeExprContext context) { }
+	public virtual void EnterExponentialOperand([NotNull] CellCraftCalculatorParser.ExponentialOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>MultiplicativeExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>ExponentialOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitMultiplicativeExpr([NotNull] CellCraftCalculatorParser.MultiplicativeExprContext context) { }
+	public virtual void ExitExponentialOperand([NotNull] CellCraftCalculatorParser.ExponentialOperandContext context) { }
 
 	/// <summary>
-	/// Enter a parse tree produced by the <c>IncrementExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>MultiplicativeOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterIncrementExpr([NotNull] CellCraftCalculatorParser.IncrementExprContext context) { }
+	public virtual void EnterMultiplicativeOperand([NotNull] CellCraftCalculatorParser.MultiplicativeOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>IncrementExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>MultiplicativeOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitIncrementExpr([NotNull] CellCraftCalculatorParser.IncrementExprContext context) { }
+	public virtual void ExitMultiplicativeOperand([NotNull] CellCraftCalculatorParser.MultiplicativeOperandContext context) { }
 
 	/// <summary>
-	/// Enter a parse tree produced by the <c>ExponentialExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>IncrementOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterExponentialExpr([NotNull] CellCraftCalculatorParser.ExponentialExprContext context) { }
+	public virtual void EnterIncrementOperand([NotNull] CellCraftCalculatorParser.IncrementOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>ExponentialExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>IncrementOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitExponentialExpr([NotNull] CellCraftCalculatorParser.ExponentialExprContext context) { }
+	public virtual void ExitIncrementOperand([NotNull] CellCraftCalculatorParser.IncrementOperandContext context) { }
 
 	/// <summary>
-	/// Enter a parse tree produced by the <c>AdditiveExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>AdditiveOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterAdditiveExpr([NotNull] CellCraftCalculatorParser.AdditiveExprContext context) { }
+	public virtual void EnterAdditiveOperand([NotNull] CellCraftCalculatorParser.AdditiveOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>AdditiveExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>AdditiveOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitAdditiveExpr([NotNull] CellCraftCalculatorParser.AdditiveExprContext context) { }
+	public virtual void ExitAdditiveOperand([NotNull] CellCraftCalculatorParser.AdditiveOperandContext context) { }
 
 	/// <summary>
-	/// Enter a parse tree produced by the <c>CompareExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>IdentifierOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) { }
+	public virtual void EnterIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>CompareExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>IdentifierOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) { }
+	public virtual void ExitIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) { }
 
 	/// <summary>
-	/// Enter a parse tree produced by the <c>NumberExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>ParenthesizedOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterNumberExpr([NotNull] CellCraftCalculatorParser.NumberExprContext context) { }
+	public virtual void EnterParenthesizedOperand([NotNull] CellCraftCalculatorParser.ParenthesizedOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>NumberExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>ParenthesizedOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitNumberExpr([NotNull] CellCraftCalculatorParser.NumberExprContext context) { }
+	public virtual void ExitParenthesizedOperand([NotNull] CellCraftCalculatorParser.ParenthesizedOperandContext context) { }
 
 	/// <summary>
-	/// Enter a parse tree produced by the <c>IdentifierExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Enter a parse tree produced by the <c>NumberOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterIdentifierExpr([NotNull] CellCraftCalculatorParser.IdentifierExprContext context) { }
+	public virtual void EnterNumberOperand([NotNull] CellCraftCalculatorParser.NumberOperandContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by the <c>IdentifierExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// Exit a parse tree produced by the <c>NumberOperand</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitIdentifierExpr([NotNull] CellCraftCalculatorParser.IdentifierExprContext context) { }
-
-	/// <summary>
-	/// Enter a parse tree produced by the <c>ParenthesizedExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
-	/// <para>The default implementation does nothing.</para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	public virtual void EnterParenthesizedExpr([NotNull] CellCraftCalculatorParser.ParenthesizedExprContext context) { }
-	/// <summary>
-	/// Exit a parse tree produced by the <c>ParenthesizedExpr</c>
-	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
-	/// <para>The default implementation does nothing.</para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	public virtual void ExitParenthesizedExpr([NotNull] CellCraftCalculatorParser.ParenthesizedExprContext context) { }
+	public virtual void ExitNumberOperand([NotNull] CellCraftCalculatorParser.NumberOperandContext context) { }
 
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="CellCraftCalculatorParser.compileUnit"/>.
@@ -180,6 +165,19 @@ public partial class CellCraftCalculatorBaseListener : ICellCraftCalculatorListe
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	public virtual void ExitExpression([NotNull] CellCraftCalculatorParser.ExpressionContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="CellCraftCalculatorParser.operand"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterOperand([NotNull] CellCraftCalculatorParser.OperandContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="CellCraftCalculatorParser.operand"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitOperand([NotNull] CellCraftCalculatorParser.OperandContext context) { }
 
 	/// <inheritdoc/>
 	/// <remarks>The default implementation does nothing.</remarks>
