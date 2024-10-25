@@ -5,6 +5,8 @@ using System.Text;
 namespace Table.Models {
     internal class Cell {
         private int number;
+        private string? formula;
+        private bool formulaResult;
 
         public int Number {
             get {
@@ -15,10 +17,13 @@ namespace Table.Models {
             }
         }
 
-        private string formula;
-
         public string Formula {
             get {
+#if DEBUG
+                if (formula == null) {
+                    throw new ArgumentException("Formula is null. ");
+                }
+#endif
                 return formula;
             }
             private set {
@@ -26,6 +31,14 @@ namespace Table.Models {
             }
         }
 
-        public Cell(int value = 0, string formula = "") { }
+        public bool FormulaResult {
+            get {
+                return formulaResult;
+            }
+            private set {
+                formulaResult = value;
+            }
+        }
+        public Cell(int value = 0, string formula = "", bool formulaResult = false) { }
     }
 }
