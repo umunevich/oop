@@ -16,7 +16,6 @@
                 <Button Text="Зберегти" Clicked="SaveButton_Clicked" />
                 <Button Text="Додати рядок" Clicked="AddRowButton_Clicked" />
                 <Button Text="Додати стовпець" Clicked="AddColumnButton_Clicked" />
-                <Button Text="Порахувати" Clicked="CalculateButton_Clicked" />
                 <Button Text="Довідка" Clicked="HelpButton_Clicked" />
                 <Button Text="Вийти" Clicked="ExitButton_Clicked" />
 

@@ -7,6 +7,7 @@ using Calculator;
 
 namespace CellCraft {
     using Table = Table.Models.Table;
+    using Cell = Table.Models.Cell;
     public partial class MainPage : ContentPage {
 
         public MainPage() {
@@ -57,19 +58,31 @@ namespace CellCraft {
                         HorizontalOptions = LayoutOptions.Fill
                     };
                     entry.Unfocused += Entry_Unfocused;
+                    entry.Focused += Entry_Focused;
                     grid.Add(entry, col, row);
                 }
             }
         }
             
+        private void Entry_Focused(object sender, FocusEventArgs e) {
+            var entry = (Entry)sender;
+            var row = Grid.GetRow(entry) - 1;
+            var column = Grid.GetColumn(entry) - 1;
+            //entry.Text = Table.Get().GetCell(row, column).Show();
+        }
         private void Entry_Unfocused(object sender, FocusEventArgs e) {
             var entry = (Entry)sender;
             var row = Grid.GetRow(entry) - 1;
             var column = Grid.GetColumn(entry) - 1;
             var content = entry.Text;
 
-            //Table.Get().GetCell(row, column).WriteCell(Calculator.Calculator.Evaluate(content).ToString());
-            
+            var cell = Table.Get().GetCell(row, column).Write(content);
+            if (cell.Formula.Trim().Length != 0) {
+                entry.Text = cell.Calculate().FormulaResult.ToString();
+            }
+            else {
+                //entry.Text = cell.Show();
+            }
         }
             
         private string GetColumnName(int colIndex) {
@@ -112,6 +125,7 @@ namespace CellCraft {
                     HorizontalOptions = LayoutOptions.Fill
                 };
                 entry.Unfocused += Entry_Unfocused;
+                entry.Focused += Entry_Focused;
                 grid.Add(entry, col, row);
             }
 
@@ -137,13 +151,13 @@ namespace CellCraft {
                     HorizontalOptions = LayoutOptions.Fill
                 };
                 entry.Unfocused += Entry_Unfocused;
+                entry.Focused += Entry_Focused;
                 grid.Add(entry, column, row);
             }
 
             // Add column in table instance
             Table.Get().AddNewColumn(grid.RowDefinitions.Count() - 1);
         }
-        private void CalculateButton_Clicked(object sender, EventArgs e) { }
 
         private async void HelpButton_Clicked(object sender, EventArgs e) {
             await DisplayAlert("Довідка", "Лабораторна робота 1. Варіант 42. Виконала Уточкіна Яна (група К-23)", "Ок");
@@ -161,12 +175,4 @@ namespace CellCraft {
 
 }
 
-/*public static void WriteCell(Cell cell, string content) {
-    if (int.TryParse(content, out double result)) {
-        cell.Number = result;
-        cell.Formula = null;
-    }
-    else {
-        cell.Formula = content;
-    }
-}*/
+

@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Table", "Table\Table.shproj", "{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4A8A5863-B98C-4069-9B17-AEA0785CC466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8A5863-B98C-4069-9B17-AEA0785CC466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8A5863-B98C-4069-9B17-AEA0785CC466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8A5863-B98C-4069-9B17-AEA0785CC466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8A5863-B98C-4069-9B17-AEA0785CC466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,7 +42,9 @@ Global
 		SolutionGuid = {4583BF5E-2908-4284-9982-0DD9A890A13C}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Table\Table.projitems*{05aee6ca-746d-4a5a-aed0-8c969afc5f10}*SharedItemsImports = 5
 		Table\Table.projitems*{4388f9e1-b8d6-450b-84de-d8bfc8dccb7d}*SharedItemsImports = 5
+		Table\Table.projitems*{4a8a5863-b98c-4069-9b17-aea0785cc466}*SharedItemsImports = 5
 		Table\Table.projitems*{505a6d79-0ddf-4a38-9e33-7710dc0eba6e}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

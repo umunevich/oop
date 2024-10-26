@@ -149,6 +149,18 @@ public partial class CellCraftCalculatorParser : Parser {
 	}
 
 	public partial class ExpressionContext : ParserRuleContext {
+		public ExpressionContext(ParserRuleContext parent, int invokingState)
+			: base(parent, invokingState)
+		{
+		}
+		public override int RuleIndex { get { return RULE_expression; } }
+	 
+		public ExpressionContext() { }
+		public virtual void CopyFrom(ExpressionContext context) {
+			base.CopyFrom(context);
+		}
+	}
+	public partial class CompareExprContext : ExpressionContext {
 		public IToken operatorToken;
 		public OperandContext[] operand() {
 			return GetRuleContexts<OperandContext>();
@@ -162,22 +174,18 @@ public partial class CellCraftCalculatorParser : Parser {
 		public ITerminalNode OP_LESS_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_LESS_EQUAL, 0); }
 		public ITerminalNode OP_GREATER_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_GREATER_EQUAL, 0); }
 		public ITerminalNode OP_NOT_EQUAL() { return GetToken(CellCraftCalculatorParser.OP_NOT_EQUAL, 0); }
-		public ExpressionContext(ParserRuleContext parent, int invokingState)
-			: base(parent, invokingState)
-		{
-		}
-		public override int RuleIndex { get { return RULE_expression; } }
+		public CompareExprContext(ExpressionContext context) { CopyFrom(context); }
 		public override void EnterRule(IParseTreeListener listener) {
 			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.EnterExpression(this);
+			if (typedListener != null) typedListener.EnterCompareExpr(this);
 		}
 		public override void ExitRule(IParseTreeListener listener) {
 			ICellCraftCalculatorListener typedListener = listener as ICellCraftCalculatorListener;
-			if (typedListener != null) typedListener.ExitExpression(this);
+			if (typedListener != null) typedListener.ExitCompareExpr(this);
 		}
 		public override TResult Accept<TResult>(IParseTreeVisitor<TResult> visitor) {
 			ICellCraftCalculatorVisitor<TResult> typedVisitor = visitor as ICellCraftCalculatorVisitor<TResult>;
-			if (typedVisitor != null) return typedVisitor.VisitExpression(this);
+			if (typedVisitor != null) return typedVisitor.VisitCompareExpr(this);
 			else return visitor.VisitChildren(this);
 		}
 	}
@@ -188,14 +196,15 @@ public partial class CellCraftCalculatorParser : Parser {
 		EnterRule(_localctx, 2, RULE_expression);
 		int _la;
 		try {
+			_localctx = new CompareExprContext(_localctx);
 			EnterOuterAlt(_localctx, 1);
 			{
 			State = 9; operand(0);
 			State = 10;
-			_localctx.operatorToken = _input.Lt(1);
+			((CompareExprContext)_localctx).operatorToken = _input.Lt(1);
 			_la = _input.La(1);
 			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << OP_EQUAL) | (1L << OP_LESS) | (1L << OP_GREATER) | (1L << OP_LESS_EQUAL) | (1L << OP_GREATER_EQUAL) | (1L << OP_NOT_EQUAL))) != 0)) ) {
-				_localctx.operatorToken = _errHandler.RecoverInline(this);
+				((CompareExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
 			} else {
 				if (_input.La(1) == TokenConstants.Eof) {
 					matchedEOF = true;

@@ -32,6 +32,19 @@ using IToken = Antlr4.Runtime.IToken;
 [System.CLSCompliant(false)]
 public interface ICellCraftCalculatorListener : IParseTreeListener {
 	/// <summary>
+	/// Enter a parse tree produced by the <c>CompareExpr</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context);
+	/// <summary>
+	/// Exit a parse tree produced by the <c>CompareExpr</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context);
+
+	/// <summary>
 	/// Enter a parse tree produced by the <c>ExponentialOperand</c>
 	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// </summary>

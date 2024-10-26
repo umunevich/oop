@@ -36,6 +36,21 @@ using ParserRuleContext = Antlr4.Runtime.ParserRuleContext;
 [System.CLSCompliant(false)]
 public partial class CellCraftCalculatorBaseListener : ICellCraftCalculatorListener {
 	/// <summary>
+	/// Enter a parse tree produced by the <c>CompareExpr</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by the <c>CompareExpr</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) { }
+
+	/// <summary>
 	/// Enter a parse tree produced by the <c>ExponentialOperand</c>
 	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>The default implementation does nothing.</para>

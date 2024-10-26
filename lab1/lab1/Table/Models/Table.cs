@@ -68,6 +68,21 @@ namespace Table.Models {
             return cells[row][column];
         }
 
+        public Cell GetCell(string id) {
+            int column = 0;
+            int i = 0;
+
+            while (i < id.Length && char.IsLetter(id[i])) {
+                column = column * 26 + (id[i] - 'A' + 1);
+                i++;
+            }
+            string rowStr = id.Substring(i);
+            int row = 0;
+            int.TryParse(rowStr, out row);
+
+            return cells[row - 1][column - 1];
+        }
+
         public void AddNewRow(int size) {
 #if DEBUG
             if (size != CountColumn) { 
@@ -94,5 +109,6 @@ namespace Table.Models {
             }
             CountColumn++;
         }
+        
     }
 }

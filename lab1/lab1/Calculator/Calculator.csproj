@@ -14,4 +14,6 @@
     <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
   </ItemGroup>
 
+  <Import Project="..\Table\Table.projitems" Label="Shared" />
+
 </Project>

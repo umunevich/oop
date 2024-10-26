@@ -6,16 +6,17 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Table;
 namespace Calculator {
-    internal class CellCraftCalculatorVisitor : CellCraftCalculatorBaseVisitor<double> {
-        Dictionary<string, double> tableIdentifier = new Dictionary<string, double>();
+    using Table = Table.Models.Table;
 
+    internal class CellCraftCalculatorVisitor : CellCraftCalculatorBaseVisitor<double> {
+                
         public override double VisitCompileUnit([NotNull] CellCraftCalculatorParser.CompileUnitContext context) {
-            return VisitExpression(context.expression());
+            return Visit(context.expression());
         }
 
-        public override double VisitExpression([NotNull] CellCraftCalculatorParser.ExpressionContext context) {
+        public override double VisitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) {
             var left = VisitOperand(context.operand(0));
             var right = VisitOperand(context.operand(1));
             var op = context.operatorToken.Type;
@@ -50,14 +51,9 @@ namespace Calculator {
 
         public override double VisitIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) {
             var result = context.GetText();
-            double value;
-
-            if (tableIdentifier.TryGetValue(result.ToString(), out value)) {
-                return value;
-            }
-            else {
-                return 0.0;
-            }
+            var num = Table.Get().GetCell(result).Number;
+            Debug.WriteLine(num);
+            return num;
         }
 
         public override double VisitAdditiveOperand([NotNull] CellCraftCalculatorParser.AdditiveOperandContext context) {
@@ -83,9 +79,33 @@ namespace Calculator {
                 return left * right;
             }
             else {
+                if (right == 0) {
+                    throw new DivideByZeroException("Divide by zero. ");
+                }
                 Debug.WriteLine("{0} / {1}", left, right);
                 return left / right;
             }
+        }
+
+        public override double VisitExponentialOperand([NotNull] CellCraftCalculatorParser.ExponentialOperandContext context) {
+            double left = Visit(context.operand(0));
+            double right = Visit(context.operand(1));
+
+            return Math.Pow(left, right);
+        }
+
+        public override double VisitIncrementOperand([NotNull] CellCraftCalculatorParser.IncrementOperandContext context) {
+            double number = Visit(context.operand());
+            if (context.operatorToken.Type == CellCraftCalculatorLexer.OP_INC) {
+                return number + 1;
+            }
+            else {
+                return number - 1;
+            }
+        }
+
+        public override double VisitParenthesizedOperand([NotNull] CellCraftCalculatorParser.ParenthesizedOperandContext context) {
+            return Visit(context.operand());
         }
     }
 }

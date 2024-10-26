@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Calculator {
-    internal class ThrowExceptionErrorListener : BaseErrorListener, IAntlrErrorListener<int> {
+    public class ThrowExceptionErrorListener : BaseErrorListener, IAntlrErrorListener<int> {
         public override void SyntaxError([NotNull] IRecognizer recognizer, [Nullable] IToken offendingSymbol, int line, int charPositionInLine, [NotNull] string msg, [Nullable] RecognitionException e) {
             throw new ArgumentException($"Invalid Expression: {0}", msg, e);
         }

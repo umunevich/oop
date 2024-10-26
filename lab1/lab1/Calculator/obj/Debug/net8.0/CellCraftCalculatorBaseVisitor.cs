@@ -35,6 +35,18 @@ using ParserRuleContext = Antlr4.Runtime.ParserRuleContext;
 [System.CLSCompliant(false)]
 public partial class CellCraftCalculatorBaseVisitor<Result> : AbstractParseTreeVisitor<Result>, ICellCraftCalculatorVisitor<Result> {
 	/// <summary>
+	/// Visit a parse tree produced by the <c>CompareExpr</c>
+	/// labeled alternative in <see cref="CellCraftCalculatorParser.expression"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) { return VisitChildren(context); }
+
+	/// <summary>
 	/// Visit a parse tree produced by the <c>ExponentialOperand</c>
 	/// labeled alternative in <see cref="CellCraftCalculatorParser.operand"/>.
 	/// <para>

@@ -1,0 +1,17 @@
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0\CellCraft.deps.json
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0\CellCraft.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0\CellCraft.pdb
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0\Calculator.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0\Calculator.pdb
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.csproj.AssemblyReference.cache
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.AssemblyInfoInputs.cache
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.AssemblyInfo.cs
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.csproj.CoreCompileInputs.cache
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.sourcelink.json
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\XamlC.stamp
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.csproj.Up2Date
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\refint\CellCraft.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\CellCraft.pdb
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0\ref\CellCraft.dll

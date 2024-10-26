@@ -7,7 +7,7 @@
 compileUnit : expression EOF ;
 
 expression: 
-	operand operatorToken=(OP_EQUAL | OP_LESS | OP_GREATER | OP_LESS_EQUAL | OP_GREATER_EQUAL | OP_NOT_EQUAL) operand;
+	operand operatorToken=(OP_EQUAL | OP_LESS | OP_GREATER | OP_LESS_EQUAL | OP_GREATER_EQUAL | OP_NOT_EQUAL) operand #CompareExpr	;
 
 operand : 
 	LPAREN operand RPAREN #ParenthesizedOperand
@@ -56,4 +56,4 @@ OP_NOT_EQUAL : '<>' ;
 LPAREN : '(' ;
 RPAREN : ')' ;
 
-WS : [\t\r\n]+ -> skip ;
+WS : [ \t\r\n]+ -> skip ;
