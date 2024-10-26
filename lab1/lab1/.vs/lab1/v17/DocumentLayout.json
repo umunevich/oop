@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}|Table\\Table.shproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\table\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}|Table\\Table.shproj|solutionrelative:table\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}|Table\\Table.shproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\table\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}|Table\\Table.shproj|solutionrelative:table\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\cellcraftcalculatorvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +23,20 @@
       "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\throwexceptionerrorlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8A5863-B98C-4069-9B17-AEA0785CC466}|Tests\\Tests.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\tests\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8A5863-B98C-4069-9B17-AEA0785CC466}|Tests\\Tests.csproj|solutionrelative:tests\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\cellcraftcalculator.g4||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\cellcraftcalculator.g4||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A8A5863-B98C-4069-9B17-AEA0785CC466}|Tests\\Tests.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4A8A5863-B98C-4069-9B17-AEA0785CC466}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\cellcraft\\cellcraft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4388F9E1-B8D6-450B-84DE-D8BFC8DCCB7D}|CellCraft\\CellCraft.csproj|solutionrelative:cellcraft\\cellcraft.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4A8A5863-B98C-4069-9B17-AEA0785CC466}|Tests\\Tests.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\tests\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8A5863-B98C-4069-9B17-AEA0785CC466}|Tests\\Tests.csproj|solutionrelative:tests\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\cellcraftcalculator.g4||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\cellcraftcalculator.g4||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}|Table\\Table.shproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\table\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505A6D79-0DDF-4A38-9E33-7710DC0EBA6E}|Table\\Table.shproj|solutionrelative:table\\models\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|d:\\learning\\university2\\oop\\oop repo\\lab1\\lab1\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05AEE6CA-746D-4A5A-AED0-8C969AFC5F10}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,91 +58,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tests",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\Tests.csproj",
-              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\Tests.csproj",
-              "RelativeToolTip": "Tests\\Tests.csproj",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-26T12:03:58.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CellCraft",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\CellCraft.csproj",
-              "RelativeDocumentMoniker": "CellCraft\\CellCraft.csproj",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\CellCraft.csproj",
-              "RelativeToolTip": "CellCraft\\CellCraft.csproj",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-26T08:39:17.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CalculatorTest.cs",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\CalculatorTest.cs",
-              "RelativeDocumentMoniker": "Tests\\CalculatorTest.cs",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\CalculatorTest.cs",
-              "RelativeToolTip": "Tests\\CalculatorTest.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAYwB4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:33:19.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cell.cs",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Table\\Models\\Cell.cs",
-              "RelativeDocumentMoniker": "Table\\Models\\Cell.cs",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Table\\Models\\Cell.cs",
-              "RelativeToolTip": "Table\\Models\\Cell.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAwBgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T07:30:09.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ThrowExceptionErrorListener.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\ThrowExceptionErrorListener.cs",
               "RelativeDocumentMoniker": "Calculator\\ThrowExceptionErrorListener.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\ThrowExceptionErrorListener.cs",
               "RelativeToolTip": "Calculator\\ThrowExceptionErrorListener.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:13:53.941Z",
+              "WhenOpened": "2024-10-26T21:18:20.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Tests",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T21:05:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalculatorTest.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\CalculatorTest.cs",
+              "RelativeDocumentMoniker": "Tests\\CalculatorTest.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Tests\\CalculatorTest.cs",
+              "RelativeToolTip": "Tests\\CalculatorTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T08:33:19.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Table\\Models\\Cell.cs",
+              "RelativeDocumentMoniker": "Table\\Models\\Cell.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Table\\Models\\Cell.cs",
+              "RelativeToolTip": "Table\\Models\\Cell.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:30:09.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "CellCraft\\MainPage.xaml.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\CellCraft\\MainPage.xaml.cs",
               "RelativeToolTip": "CellCraft\\MainPage.xaml.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAqwJgAAAAzAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAuwEYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T14:17:37.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Table.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Table\\Models\\Table.cs",
               "RelativeDocumentMoniker": "Table\\Models\\Table.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Table\\Models\\Table.cs",
               "RelativeToolTip": "Table\\Models\\Table.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAQwG8AAAAIAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwFIAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T14:15:30.866Z",
               "EditorCaption": ""
@@ -159,20 +142,20 @@
               "RelativeDocumentMoniker": "Calculator\\CellCraftCalculatorVisitor.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\CellCraftCalculatorVisitor.cs",
               "RelativeToolTip": "Calculator\\CellCraftCalculatorVisitor.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAqwFAAAAASAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAwwDQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T14:11:59.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Calculator.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\Calculator.cs",
               "RelativeToolTip": "Calculator\\Calculator.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAwwAkAAAAQAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T14:11:55.854Z",
               "EditorCaption": ""
@@ -185,13 +168,13 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "2822a33f-d8ca-46aa-8ffd-518445631d4d",
-        "Display": 0,
-        "X": 0,
-        "Y": 0,
+        "Id": "d972dc24-1dbb-43da-80f5-62573be94ed2",
+        "Display": 1,
+        "X": -5,
+        "Y": 208,
         "Width": 1366,
         "Height": 654,
-        "WindowState": 0
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
@@ -200,15 +183,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "CellCraftCalculator.g4",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\CellCraftCalculator.g4",
               "RelativeDocumentMoniker": "Calculator\\CellCraftCalculator.g4",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab1\\lab1\\Calculator\\CellCraftCalculator.g4",
               "RelativeToolTip": "Calculator\\CellCraftCalculator.g4",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADoAAAAHAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwBoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-25T17:07:55.32Z",
+              "WhenOpened": "2024-10-26T21:14:56.191Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Table.Models {
@@ -45,22 +46,23 @@ namespace Table.Models {
 
         public Cell Write(string content) {
             if (int.TryParse(content, out int result)) {
-                Number = result;
-                Formula = " ";
+                Debug.WriteLine("Write number");
+                number = result;
+                formula = " ";
                 isError = false;
             }
-            else {
-                Formula = content;
+            else if (content.Trim().Length != 0){
+                formula = content;
                 isError = false;
             }
             return this;
         }
 
         public Cell Calculate() {
-            if (Formula.Trim().Length != 0) {
+            if (!string.IsNullOrWhiteSpace(formula)) {
                 try {
                     if (Calculator.Evaluate(Formula) == 1.0) {
-                        FormulaResult = true;
+                        formulaResult = true;
                         isError = false;
                     }
                 }
@@ -71,15 +73,24 @@ namespace Table.Models {
             return this;
         }
 
-        public string Show() {
-            if (Formula.Trim().Length != 0) {
-                return Formula;
+        public string ShowFocused() {
+            if (!string.IsNullOrWhiteSpace(formula)) {
+                return formula;
             }
-            else if (isError){
+            else {
+                return number.ToString();
+            }
+        }
+
+        public string ShowUnfocused() {
+            if (!string.IsNullOrWhiteSpace(formula)) {
+                return formulaResult.ToString();
+            }
+            else if (isError) {
                 return "ERROR";
             }
             else {
-                return Number.ToString();
+                return number.ToString();
             }
         }
 

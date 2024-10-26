@@ -23,10 +23,10 @@ operand :
 *	LEXER RULES 
 */
 
+IDENTIFIER : [a-zA-Z]+[1-9][0-9]* ;
 NUMBER : INTEGER ('.'INTEGER)?;
-IDENTIFIER : [A-Z]+ [1-9][0-9]+ ;
 
-INTEGER : [0-9]+ ;
+INTEGER : ('0'..'9')+ ;
 
 // Variant 42
 

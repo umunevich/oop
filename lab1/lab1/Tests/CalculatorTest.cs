@@ -7,7 +7,7 @@ namespace Tests {
     public class CalculatorTest {
 
         [Theory]
-        [InlineData("3 < 5", 1.0)]
+        [InlineData("A2 + 1 == 6", 1.0)]
         [InlineData("2 + 8 * 2 <> 4", 1.0)]
         [InlineData("2 >= 2", 1.0)]
         [InlineData("1 + 1 / 3 >= 1 + 1 / 4", 1.0)]

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Table.Models {
@@ -79,7 +80,7 @@ namespace Table.Models {
             string rowStr = id.Substring(i);
             int row = 0;
             int.TryParse(rowStr, out row);
-
+            Debug.WriteLine($"{row - 1} {column - 1}");
             return cells[row - 1][column - 1];
         }
 

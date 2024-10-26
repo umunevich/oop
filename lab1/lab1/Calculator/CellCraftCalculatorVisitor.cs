@@ -50,8 +50,10 @@ namespace Calculator {
         }
 
         public override double VisitIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) {
-            var result = context.GetText();
-            var num = Table.Get().GetCell(result).Number;
+            Debug.WriteLine("tyt");
+            string idStr = context.GetText(); 
+            Debug.WriteLine(idStr);
+            var num = Table.Get().GetCell(idStr).Number;
             Debug.WriteLine(num);
             return num;
         }

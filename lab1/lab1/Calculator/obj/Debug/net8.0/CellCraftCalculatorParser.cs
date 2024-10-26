@@ -31,7 +31,7 @@ using DFA = Antlr4.Runtime.Dfa.DFA;
 [System.CLSCompliant(false)]
 public partial class CellCraftCalculatorParser : Parser {
 	public const int
-		NUMBER=1, IDENTIFIER=2, INTEGER=3, OP_ADD=4, OP_SUBTRACT=5, OP_MULTIPLY=6, 
+		IDENTIFIER=1, NUMBER=2, INTEGER=3, OP_ADD=4, OP_SUBTRACT=5, OP_MULTIPLY=6, 
 		OP_DIVIDE=7, OP_EXPONENT=8, OP_INC=9, OP_DEC=10, OP_EQUAL=11, OP_LESS=12, 
 		OP_GREATER=13, OP_LESS_EQUAL=14, OP_GREATER_EQUAL=15, OP_NOT_EQUAL=16, 
 		LPAREN=17, RPAREN=18, WS=19;
@@ -46,7 +46,7 @@ public partial class CellCraftCalculatorParser : Parser {
 		"'=='", "'<'", "'>'", "'<='", "'>='", "'<>'", "'('", "')'"
 	};
 	private static readonly string[] _SymbolicNames = {
-		null, "NUMBER", "IDENTIFIER", "INTEGER", "OP_ADD", "OP_SUBTRACT", "OP_MULTIPLY", 
+		null, "IDENTIFIER", "NUMBER", "INTEGER", "OP_ADD", "OP_SUBTRACT", "OP_MULTIPLY", 
 		"OP_DIVIDE", "OP_EXPONENT", "OP_INC", "OP_DEC", "OP_EQUAL", "OP_LESS", 
 		"OP_GREATER", "OP_LESS_EQUAL", "OP_GREATER_EQUAL", "OP_NOT_EQUAL", "LPAREN", 
 		"RPAREN", "WS"
@@ -579,7 +579,7 @@ public partial class CellCraftCalculatorParser : Parser {
 		"\x2\x2\x2\b\t\x5\x4\x3\x2\t\n\a\x2\x2\x3\n\x3\x3\x2\x2\x2\v\f\x5\x6\x4"+
 		"\x2\f\r\t\x2\x2\x2\r\xE\x5\x6\x4\x2\xE\x5\x3\x2\x2\x2\xF\x10\b\x4\x1\x2"+
 		"\x10\x11\a\x13\x2\x2\x11\x12\x5\x6\x4\x2\x12\x13\a\x14\x2\x2\x13\x17\x3"+
-		"\x2\x2\x2\x14\x17\a\x3\x2\x2\x15\x17\a\x4\x2\x2\x16\xF\x3\x2\x2\x2\x16"+
+		"\x2\x2\x2\x14\x17\a\x4\x2\x2\x15\x17\a\x3\x2\x2\x16\xF\x3\x2\x2\x2\x16"+
 		"\x14\x3\x2\x2\x2\x16\x15\x3\x2\x2\x2\x17%\x3\x2\x2\x2\x18\x19\f\b\x2\x2"+
 		"\x19\x1A\t\x3\x2\x2\x1A$\x5\x6\x4\t\x1B\x1C\f\a\x2\x2\x1C\x1D\t\x4\x2"+
 		"\x2\x1D$\x5\x6\x4\b\x1E\x1F\f\x6\x2\x2\x1F \a\n\x2\x2 $\x5\x6\x4\a!\""+

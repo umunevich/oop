@@ -68,7 +68,7 @@ namespace CellCraft {
             var entry = (Entry)sender;
             var row = Grid.GetRow(entry) - 1;
             var column = Grid.GetColumn(entry) - 1;
-            //entry.Text = Table.Get().GetCell(row, column).Show();
+            entry.Text = Table.Get().GetCell(row, column).ShowFocused();
         }
         private void Entry_Unfocused(object sender, FocusEventArgs e) {
             var entry = (Entry)sender;
@@ -77,12 +77,7 @@ namespace CellCraft {
             var content = entry.Text;
 
             var cell = Table.Get().GetCell(row, column).Write(content);
-            if (cell.Formula.Trim().Length != 0) {
-                entry.Text = cell.Calculate().FormulaResult.ToString();
-            }
-            else {
-                //entry.Text = cell.Show();
-            }
+            entry.Text = cell.Calculate().ShowUnfocused();
         }
             
         private string GetColumnName(int colIndex) {
