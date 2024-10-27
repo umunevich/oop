@@ -70,7 +70,6 @@ namespace Table.Models {
                 }
                 finally { 
                     number = null;
-                    formulaResult = null;
                 }
             }
             return this;
@@ -99,10 +98,9 @@ namespace Table.Models {
             }
             else {
                 number = null;
-                formula = null;
-                formulaResult = null;
-                return "";
+                
             }
+            return "";
         }
 
     }

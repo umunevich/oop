@@ -13,7 +13,6 @@
                 Padding="0"
                 Spacing="10">
 
-                <Button Text="Зберегти" Clicked="SaveButton_Clicked" />
                 <Button Text="Додати рядок" Clicked="AddRowButton_Clicked" />
                 <Button Text="Додати стовпець" Clicked="AddColumnButton_Clicked" />
                 <Button Text="Довідка" Clicked="HelpButton_Clicked" />

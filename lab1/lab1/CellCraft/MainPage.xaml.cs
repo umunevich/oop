@@ -88,15 +88,6 @@ namespace CellCraft {
                 entry.Text = "ERROR : Wrong format of expression. ";
             }
         }
-            
-        private void SaveButton_Clicked(object sender, EventArgs e) {
-            for (int i = 0; i < Table.Get().CountRow; i++) {
-                for (int j = 0; j < Table.Get().CountColumn; j++) {
-                    Debug.Write(Table.Get().GetCell(i, j).Number, " ");
-                }
-                Debug.WriteLine(" ");
-            }
-        }
 
         private void AddRowButton_Clicked(object sender, EventArgs e) {
             // Add number of row
