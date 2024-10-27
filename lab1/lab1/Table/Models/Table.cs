@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
+﻿using System.Diagnostics;
 
 namespace Table.Models {
-     class Table {
-        private List<List<Cell>> cells { get; }
+     internal class Table {
+        private List<List<Cell>> cells;
 
         private static int countRow = 8;
         private static int countColumn = 6;

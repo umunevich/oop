@@ -14,7 +14,6 @@ namespace Calculator {
         }
 
         public void SyntaxError(IRecognizer recognizer, int offendingSybol, int line, int charPositionInLine, string msg, RecognitionException e) {
-            Debug.WriteLine("tyt2");
             throw new ArgumentException($"Invalid Expression: {0}", msg, e);
         }
     }

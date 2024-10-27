@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CellCraft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+790e515066689df7f1fe6a8a6c7df8443e9ffc41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+827a72e0458ecfdadeb6d7635e6d2a7232f4bd44")]
 [assembly: System.Reflection.AssemblyProductAttribute("CellCraft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CellCraft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

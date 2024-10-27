@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Diagnostics;
-using System.Text;
+﻿using System.Diagnostics;
 
 namespace Table.Models {
     using Calculator = Calculator.Calculator;
+
     internal class Cell {
 
-        private int? number;
-        private string formula;
-        private bool formulaResult;
-        private bool isError;
         public string id;
+        private int? number;
+        private string? formula;
+        private bool? formulaResult;
+        private bool isError;
 
         public int? Number {
             get {
@@ -23,29 +20,7 @@ namespace Table.Models {
             }
         }
 
-        public string Formula {
-            get {
-#if DEBUG
-                if (formula == "") {
-                    throw new ArgumentException("Formula is null. ");
-                }
-#endif
-                return formula;
-            }
-            private set {
-                formula = value;
-            }
-        }
-
-        public bool FormulaResult {
-            get {
-                return formulaResult;
-            }
-            private set {
-                formulaResult = value;
-            }
-        }
-        public Cell(string id, string formula = "  ", bool formulaResult = false, bool isError = false) {
+        public Cell(string id, bool isError = false) {
             this.id = id;
         }
 
@@ -53,7 +28,8 @@ namespace Table.Models {
             if (int.TryParse(content, out int result)) {
                 Debug.WriteLine("Write number");
                 Number = result;
-                formula = " ";
+                formula = null;
+                formulaResult = null;
                 isError = false;
 
                 if (!ids.TryAdd(id, result)) {
@@ -65,6 +41,7 @@ namespace Table.Models {
             else if (!string.IsNullOrWhiteSpace(content)){
                 number = null;
                 formula = content;
+                formulaResult = null;
                 isError = false;
 
                 if (ids.ContainsKey(id)) {
@@ -73,7 +50,8 @@ namespace Table.Models {
             }
             else {
                 number = null;
-                formula = " ";
+                formula = null;
+                formulaResult = null;
                 isError = false;
                 if (ids.ContainsKey(id)) {
                     ids.Remove(id);
@@ -85,13 +63,21 @@ namespace Table.Models {
         public Cell Calculate(Dictionary<string, int> ids) {
             if (!string.IsNullOrWhiteSpace(formula)) {
                 try {
-                    if (Calculator.Evaluate(Formula, ids) == 1.0) {
+                    if (Calculator.Evaluate(formula, ids) == 1.0) { // catch exceptions
                         formulaResult = true;
+                        isError = false;
+                    }
+                    else {
+                        formulaResult = false;
                         isError = false;
                     }
                 }
                 catch (NullReferenceException) {
                     isError = true;
+                    formulaResult = null;
+                }
+                finally {
+                    number = null;
                 }
             }
             return this;
@@ -113,18 +99,21 @@ namespace Table.Models {
         public string ShowUnfocused() {
             if (isError) {
                 number = null;
+                formulaResult = null;
                 return "ERROR";
             }
             else if (!string.IsNullOrWhiteSpace(formula)) {
                 return formulaResult.ToString();
             }
             else if (number != null) {
-                formula = " ";
+                formula = null;
+                formulaResult = null;
                 return number.ToString();
             }
             else {
-                formula = " ";
                 number = null;
+                formula = null;
+                formulaResult = null;
                 return "";
             }
         }

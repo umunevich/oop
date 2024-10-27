@@ -1,15 +1,7 @@
 ﻿using Antlr4.Runtime.Misc;
-using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Table;
-namespace Calculator {
-    using Table = Table.Models.Table;
 
+namespace Calculator {
     internal class CellCraftCalculatorVisitor : CellCraftCalculatorBaseVisitor<double> {
 
         private readonly Dictionary<string, int> identificators;
