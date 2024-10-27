@@ -67,6 +67,11 @@ namespace Table.Models {
                 formula = content;
                 isError = false;
             }
+            else {
+                number = null;
+                formula = " ";
+                isError = false;
+            }
             return this;
         }
 
@@ -100,15 +105,19 @@ namespace Table.Models {
 
         public string ShowUnfocused() {
             if (isError) {
+                number = null;
                 return "ERROR";
             }
             else if (!string.IsNullOrWhiteSpace(formula)) {
                 return formulaResult.ToString();
             }
             else if (number != null) {
+                formula = " ";
                 return number.ToString();
             }
             else {
+                formula = " ";
+                number = null;
                 return "";
             }
         }

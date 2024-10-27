@@ -45,14 +45,15 @@ namespace Table.Models {
                 var rows = new List<Cell>(count_column);
 
                 for (int j = 0; j < count_column; j++) {
-                    rows.Add(new Cell(GetColumnName(j) + i.ToString()));
+                    rows.Add(new Cell(GetColumnName(j) + (i + 1).ToString()));
+                    Debug.WriteLine(GetColumnName(j) + (i + 1).ToString());
                 }
                 cells.Add(rows);
             }
         }
 
         private static string GetColumnName(int colIndex) {
-            int dividend = colIndex;
+            int dividend = colIndex + 1;
             string columnName = string.Empty;
 
             while (dividend > 0) {
@@ -104,12 +105,11 @@ namespace Table.Models {
             }
 #endif
             var newRow = new List<Cell>(size);
-
+            CountRow++;
             for (int col = 0; col < size; col++) {
                 newRow.Add(new Cell(GetColumnName(col) + CountRow.ToString()));
             }
             cells.Add(newRow);
-            CountRow++;
         }
 
         public void AddNewColumn(int size) {
@@ -119,7 +119,7 @@ namespace Table.Models {
             }
 #endif
             for (int row = 0; row < size; row++) {
-                cells[row].Add(new Cell(GetColumnName(CountRow) + row.ToString()));
+                cells[row].Add(new Cell(GetColumnName(CountColumn) + (row + 1).ToString()));
             }
             CountColumn++;
         }
