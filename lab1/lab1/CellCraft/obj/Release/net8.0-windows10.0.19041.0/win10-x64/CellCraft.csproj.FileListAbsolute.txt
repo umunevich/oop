@@ -176,3 +176,8 @@ D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-wind
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Antlr4.Runtime.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Calculator.dll
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\Calculator.pdb
+D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs

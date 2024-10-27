@@ -66,11 +66,18 @@ namespace Table.Models {
                 number = null;
                 formula = content;
                 isError = false;
+
+                if (ids.ContainsKey(id)) {
+                    ids.Remove(id);
+                }
             }
             else {
                 number = null;
                 formula = " ";
                 isError = false;
+                if (ids.ContainsKey(id)) {
+                    ids.Remove(id);
+                }
             }
             return this;
         }

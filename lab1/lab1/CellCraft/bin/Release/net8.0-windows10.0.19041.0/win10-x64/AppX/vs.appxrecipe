@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8500FD2BE58B3633D4644DCC3D04A350A12314B6FC7ADF7D591FCBE58412785C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>983CD716513DEB61E93608CE3B3FCEEA776CB5EDB4341EE9271D5D688D4FB5C7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.cellcraft_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.cellcraft_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.cellcraft</RegisteredPackageID>
@@ -29,29 +29,25 @@
     <AppXManifest Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-18T19:43:02.760</Modified>
+      <Modified>2024-10-27T14:31:59.427</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-18T19:17:56.883</Modified>
+      <Modified>2024-10-27T14:16:24.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\CellCraft.runtimeconfig.json">
       <PackagePath>CellCraft.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-18T19:17:56.341</Modified>
+      <Modified>2024-10-27T14:16:24.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CellCraft.exe</PackagePath>
-      <Modified>2024-10-18T19:43:01.017</Modified>
+      <Modified>2024-10-27T14:31:58.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-10-18T07:05:46.545</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\Resources\Raw\appicon.svg">
-      <PackagePath>appicon.svg</PackagePath>
-      <Modified>2024-10-18T07:05:46.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\Resources\AppIcon\appiconfg.svg">
       <PackagePath>Resources\AppIcon\appiconfg.svg</PackagePath>
@@ -291,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\CellCraft.deps.json">
       <PackagePath>CellCraft.deps.json</PackagePath>
-      <Modified>2024-10-18T19:17:55.997</Modified>
+      <Modified>2024-10-27T14:16:23.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -301,329 +297,341 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-10-14T21:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-10-14T21:25:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:42.000</Modified>
+      <Modified>2024-10-14T21:24:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-10-14T21:24:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:06.000</Modified>
+      <Modified>2024-10-14T21:24:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:06.000</Modified>
+      <Modified>2024-10-14T21:25:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:40.000</Modified>
+      <Modified>2024-10-14T21:25:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-10-14T21:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-10-14T21:24:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:36.000</Modified>
+      <Modified>2024-10-14T21:24:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:25:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-10-14T21:25:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-10-14T21:25:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-10-14T21:25:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:25:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-10-14T21:24:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:25:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-10-14T21:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-10-14T21:25:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:36.000</Modified>
+      <Modified>2024-10-14T21:25:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-10-14T21:25:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-10-14T21:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:36.000</Modified>
+      <Modified>2024-10-14T21:24:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:25:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-10-14T21:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:25:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-10-14T21:25:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-10-14T21:25:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-10-14T21:25:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-10-14T21:25:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-10-14T21:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-10-14T21:25:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-10-14T21:24:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.graphics.win2d\1.2.0\runtimes\win-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2024-03-11T15:36:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
-      <Modified>2024-03-08T18:44:10.000</Modified>
+      <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Antlr4.Runtime.dll">
+      <PackagePath>Antlr4.Runtime.dll</PackagePath>
+      <Modified>2024-10-27T14:16:25.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
-      <Modified>2024-10-18T19:17:59.229</Modified>
+      <Modified>2024-10-27T14:16:25.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
-      <Modified>2024-10-18T19:17:59.515</Modified>
+      <Modified>2024-10-27T14:16:25.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-      <Modified>2024-10-18T19:17:59.826</Modified>
+      <Modified>2024-10-27T14:16:25.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2024-10-18T19:18:00.106</Modified>
+      <Modified>2024-10-27T14:16:25.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
-      <Modified>2024-10-18T19:18:00.385</Modified>
+      <Modified>2024-10-27T14:16:25.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-      <Modified>2024-10-18T19:18:00.664</Modified>
+      <Modified>2024-10-27T14:16:26.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.Debug.dll">
       <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
-      <Modified>2024-10-18T19:18:00.896</Modified>
+      <Modified>2024-10-27T14:16:26.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
-      <Modified>2024-10-18T19:18:01.190</Modified>
+      <Modified>2024-10-27T14:16:26.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-      <Modified>2024-10-18T19:18:01.447</Modified>
+      <Modified>2024-10-27T14:16:26.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
-      <Modified>2024-10-18T19:18:02.648</Modified>
+      <Modified>2024-10-27T14:16:26.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.IO.RecyclableMemoryStream.dll">
+      <PackagePath>Microsoft.IO.RecyclableMemoryStream.dll</PackagePath>
+      <Modified>2024-10-27T14:16:27.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.Compatibility.dll">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
-      <Modified>2024-10-18T19:18:03.487</Modified>
+      <Modified>2024-10-27T14:16:27.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.dll">
       <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
-      <Modified>2024-10-18T19:18:05.129</Modified>
+      <Modified>2024-10-27T14:16:28.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.Xaml.dll">
       <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
-      <Modified>2024-10-18T19:18:05.570</Modified>
+      <Modified>2024-10-27T14:16:28.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.dll">
       <PackagePath>Microsoft.Maui.dll</PackagePath>
-      <Modified>2024-10-18T19:18:06.467</Modified>
+      <Modified>2024-10-27T14:16:29.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Essentials.dll">
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
-      <Modified>2024-10-18T19:18:07.020</Modified>
+      <Modified>2024-10-27T14:16:29.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
-      <Modified>2024-10-18T19:18:07.490</Modified>
+      <Modified>2024-10-27T14:16:29.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
-      <Modified>2024-10-18T19:18:07.863</Modified>
+      <Modified>2024-10-27T14:16:29.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:09.039</Modified>
+      <Modified>2024-10-27T14:16:30.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WinUI.dll">
       <PackagePath>Microsoft.WinUI.dll</PackagePath>
-      <Modified>2024-10-18T19:18:14.210</Modified>
+      <Modified>2024-10-27T14:16:33.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppLifecycle.Projection.dll">
       <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:14.617</Modified>
+      <Modified>2024-10-27T14:16:33.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
       <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:14.889</Modified>
+      <Modified>2024-10-27T14:16:33.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppNotifications.Projection.dll">
       <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:15.227</Modified>
+      <Modified>2024-10-27T14:16:33.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:15.600</Modified>
+      <Modified>2024-10-27T14:16:33.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:15.963</Modified>
+      <Modified>2024-10-27T14:16:34.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:16.229</Modified>
+      <Modified>2024-10-27T14:16:34.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Management.Deployment.Projection.dll">
       <PackagePath>Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:16.637</Modified>
+      <Modified>2024-10-27T14:16:34.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.PushNotifications.Projection.dll">
       <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:16.980</Modified>
+      <Modified>2024-10-27T14:16:34.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Security.AccessControl.Projection.dll">
       <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:17.229</Modified>
+      <Modified>2024-10-27T14:16:34.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.System.Power.Projection.dll">
       <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:17.570</Modified>
+      <Modified>2024-10-27T14:16:34.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.System.Projection.dll">
       <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:17.844</Modified>
+      <Modified>2024-10-27T14:16:35.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Widgets.Projection.dll">
       <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
-      <Modified>2024-10-18T19:18:18.143</Modified>
+      <Modified>2024-10-27T14:16:35.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
-      <Modified>2024-10-18T19:18:18.375</Modified>
+      <Modified>2024-10-27T14:16:35.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Calculator.dll">
+      <PackagePath>Calculator.dll</PackagePath>
+      <Modified>2024-10-27T14:31:59.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\CellCraft.dll">
       <PackagePath>CellCraft.dll</PackagePath>
-      <Modified>2024-10-18T19:43:02.645</Modified>
+      <Modified>2024-10-27T14:31:59.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.compatibility\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
-      <Modified>2024-04-18T23:21:08.000</Modified>
+      <Modified>2024-10-14T21:06:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.core\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
       <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
-      <Modified>2024-04-18T23:20:10.000</Modified>
+      <Modified>2024-10-14T21:05:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.core\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+    <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.core\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
-      <Modified>2024-04-18T23:19:32.000</Modified>
+      <Modified>2024-10-14T21:05:10.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
+    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
       <Name>Microsoft.WindowsAppRuntime.1.5</Name>
-      <Version>5001.70.1338.0</Version>
+      <Version>5001.214.1843.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.214.1843.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
+    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
       <Name>Microsoft.WindowsAppRuntime.1.5</Name>
-      <Version>5001.70.1338.0</Version>
+      <Version>5001.214.1843.0</Version>
       <Architecture>win32</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.214.1843.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix">
+    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix">
       <Name>Microsoft.WindowsAppRuntime.1.5</Name>
-      <Version>5001.70.1338.0</Version>
+      <Version>5001.214.1843.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.214.1843.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix">
+    <ResolvedSDKReference Include="C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix">
       <Name>Microsoft.WindowsAppRuntime.1.5</Name>
-      <Version>5001.70.1338.0</Version>
+      <Version>5001.214.1843.0</Version>
       <Architecture>arm64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.70.1338.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.214.1843.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\burya\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

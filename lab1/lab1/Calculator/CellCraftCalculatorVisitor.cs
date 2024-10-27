@@ -61,7 +61,7 @@ namespace Calculator {
                 return value;
             }
             else {
-                return 0.0;
+                throw new ArgumentException($"Wrong identifier. Actual is {result}.");
             }
         }
 
