@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-26T21:51:42.725</Modified>
+      <Modified>2024-10-27T13:50:48.627</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-26T08:45:31.697</Modified>
+      <Modified>2024-10-27T07:55:24.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CellCraft.runtimeconfig.json">
       <PackagePath>CellCraft.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CellCraft.dll">
       <PackagePath>CellCraft.dll</PackagePath>
-      <Modified>2024-10-26T21:51:42.324</Modified>
+      <Modified>2024-10-27T13:50:47.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CellCraft.exe</PackagePath>
-      <Modified>2024-10-26T21:51:42.327</Modified>
+      <Modified>2024-10-27T13:50:47.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -291,7 +291,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CellCraft.deps.json">
       <PackagePath>CellCraft.deps.json</PackagePath>
-      <Modified>2024-10-26T08:45:31.613</Modified>
+      <Modified>2024-10-27T07:55:24.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -583,7 +583,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\bin\Debug\net8.0\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2024-10-26T21:51:37.256</Modified>
+      <Modified>2024-10-27T13:50:45.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.compatibility\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

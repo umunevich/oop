@@ -45,10 +45,23 @@ namespace Table.Models {
                 var rows = new List<Cell>(count_column);
 
                 for (int j = 0; j < count_column; j++) {
-                    rows.Add(new Cell());
+                    rows.Add(new Cell(GetColumnName(j) + i.ToString()));
                 }
                 cells.Add(rows);
             }
+        }
+
+        private static string GetColumnName(int colIndex) {
+            int dividend = colIndex;
+            string columnName = string.Empty;
+
+            while (dividend > 0) {
+                int modulo = (dividend - 1) % 26;
+                columnName = Convert.ToChar(65 + modulo) + columnName;
+                dividend = (dividend - modulo) / 26;
+            }
+
+            return columnName;
         }
 
         private static Table? table;
@@ -93,7 +106,7 @@ namespace Table.Models {
             var newRow = new List<Cell>(size);
 
             for (int col = 0; col < size; col++) {
-                newRow.Add(new Cell());
+                newRow.Add(new Cell(GetColumnName(col) + CountRow.ToString()));
             }
             cells.Add(newRow);
             CountRow++;
@@ -106,7 +119,7 @@ namespace Table.Models {
             }
 #endif
             for (int row = 0; row < size; row++) {
-                cells[row].Add(new Cell());
+                cells[row].Add(new Cell(GetColumnName(CountRow) + row.ToString()));
             }
             CountColumn++;
         }

@@ -9,7 +9,7 @@ namespace CellCraft {
     using Table = Table.Models.Table;
     using Cell = Table.Models.Cell;
     public partial class MainPage : ContentPage {
-
+        public Dictionary<string, int> identificators = new Dictionary<string, int>();
         public MainPage() {
             InitializeComponent();
             CreateGrid();
@@ -76,8 +76,8 @@ namespace CellCraft {
             var column = Grid.GetColumn(entry) - 1;
             var content = entry.Text;
 
-            var cell = Table.Get().GetCell(row, column).Write(content);
-            entry.Text = cell.Calculate().ShowUnfocused();
+            var cell = Table.Get().GetCell(row, column).Write(content, identificators);
+            entry.Text = cell.Calculate(identificators).ShowUnfocused();
         }
             
         private string GetColumnName(int colIndex) {

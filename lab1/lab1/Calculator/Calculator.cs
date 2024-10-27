@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace Calculator {
     public class Calculator {
-        public static double Evaluate(string? expression) {
+        public static double Evaluate(string? expression, Dictionary<string, int> ids) {
             try {
                 var lexer = new CellCraftCalculatorLexer(new AntlrInputStream(expression));
 
@@ -17,7 +17,7 @@ namespace Calculator {
 
                 var tree = parser.compileUnit();
 
-                var visitor = new CellCraftCalculatorVisitor();
+                var visitor = new CellCraftCalculatorVisitor(ids);
 
                 return visitor.VisitCompileUnit(tree);
             }

@@ -11,7 +11,11 @@ namespace Calculator {
     using Table = Table.Models.Table;
 
     internal class CellCraftCalculatorVisitor : CellCraftCalculatorBaseVisitor<double> {
-                
+
+        private readonly Dictionary<string, int> identificators;
+        public CellCraftCalculatorVisitor(Dictionary<string, int> ids) {
+            identificators = ids;
+        }
         public override double VisitCompileUnit([NotNull] CellCraftCalculatorParser.CompileUnitContext context) {
             return Visit(context.expression());
         }
@@ -51,11 +55,14 @@ namespace Calculator {
 
         public override double VisitIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) {
             Debug.WriteLine("tyt");
-            string idStr = context.GetText(); 
-            Debug.WriteLine(idStr);
-            var num = Table.Get().GetCell(idStr).Number;
-            Debug.WriteLine(num);
-            return num;
+            string result = context.GetText();
+            int value;
+            if (identificators.TryGetValue(result, out value)) {
+                return value;
+            }
+            else {
+                return 0.0;
+            }
         }
 
         public override double VisitAdditiveOperand([NotNull] CellCraftCalculatorParser.AdditiveOperandContext context) {
