@@ -1,26 +1,22 @@
 ﻿using Antlr4.Runtime.Misc;
-using System.Diagnostics;
 
 namespace Calculator {
     internal class CellCraftCalculatorVisitor : CellCraftCalculatorBaseVisitor<double> {
 
         private readonly Dictionary<string, int> identificators;
-        public CellCraftCalculatorVisitor(Dictionary<string, int> ids) {
-            identificators = ids;
+        public CellCraftCalculatorVisitor(Dictionary<string, int> identificators) {
+            this.identificators = identificators;
         }
         public override double VisitCompileUnit([NotNull] CellCraftCalculatorParser.CompileUnitContext context) {
             return Visit(context.expression());
         }
 
         public override double VisitCompareExpr([NotNull] CellCraftCalculatorParser.CompareExprContext context) {
-            var left = VisitOperand(context.operand(0));
-            var right = VisitOperand(context.operand(1));
+            double left = VisitOperand(context.operand(0));
+            double right = VisitOperand(context.operand(1));
             var op = context.operatorToken.Type;
 
-            if (!EvaluateComparison(left, right, op)) {
-                return 0.0;
-            }  
-            return 1.0;
+            return EvaluateComparison(left, right, op) ? 1.0 : 0.0;
         }
 
         private bool EvaluateComparison(double left, double right, dynamic op) {
@@ -40,16 +36,12 @@ namespace Calculator {
         }
 
         public override double VisitNumberOperand([NotNull] CellCraftCalculatorParser.NumberOperandContext context) {
-            var result = double.Parse(context.GetText());
-            Debug.WriteLine(result);
-            return result;
+            return double.Parse(context.GetText());
         }
 
         public override double VisitIdentifierOperand([NotNull] CellCraftCalculatorParser.IdentifierOperandContext context) {
-            Debug.WriteLine("tyt");
             string result = context.GetText();
-            int value;
-            if (identificators.TryGetValue(result, out value)) {
+            if (identificators.TryGetValue(result, out int value)) {
                 return value;
             }
             else {
@@ -62,11 +54,9 @@ namespace Calculator {
             double right = Visit(context.operand(1));
 
             if (context.operatorToken.Type == CellCraftCalculatorLexer.OP_ADD) {
-                Debug.WriteLine("{0} + {1}", left, right);
                 return left + right;
             }
             else {
-                Debug.WriteLine("{0} - {1}", left, right);
                 return left - right;
             }
         }
@@ -76,14 +66,12 @@ namespace Calculator {
             double right = Visit(context.operand(1));
 
             if (context.operatorToken.Type == CellCraftCalculatorLexer.OP_MULTIPLY) {
-                Debug.WriteLine("{0} x {1}", left, right);
                 return left * right;
             }
             else {
                 if (right == 0) {
                     throw new DivideByZeroException("Divide by zero. ");
                 }
-                Debug.WriteLine("{0} / {1}", left, right);
                 return left / right;
             }
         }
