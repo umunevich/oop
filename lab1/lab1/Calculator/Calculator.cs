@@ -1,11 +1,10 @@
 ﻿using Antlr4.Runtime;
-using Antlr4.Runtime.Misc;
-using Calculator;
-using System.Diagnostics;
 
 namespace Calculator {
     public class Calculator {
-        public static double Evaluate(string? expression, Dictionary<string, int> ids) {
+
+        public static double Evaluate(string? expression, Dictionary<string, int> identificators) {
+
             var lexer = new CellCraftCalculatorLexer(new AntlrInputStream(expression));
 
             lexer.RemoveErrorListeners();
@@ -16,7 +15,7 @@ namespace Calculator {
 
             var tree = parser.compileUnit();
 
-            var visitor = new CellCraftCalculatorVisitor(ids);
+            var visitor = new CellCraftCalculatorVisitor(identificators);
 
             return visitor.VisitCompileUnit(tree);
         }

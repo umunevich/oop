@@ -4,9 +4,11 @@ namespace Calculator {
     internal class CellCraftCalculatorVisitor : CellCraftCalculatorBaseVisitor<double> {
 
         private readonly Dictionary<string, int> identificators;
+
         public CellCraftCalculatorVisitor(Dictionary<string, int> identificators) {
             this.identificators = identificators;
         }
+
         public override double VisitCompileUnit([NotNull] CellCraftCalculatorParser.CompileUnitContext context) {
             return Visit(context.expression());
         }

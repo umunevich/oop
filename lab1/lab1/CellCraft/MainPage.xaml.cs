@@ -1,15 +1,12 @@
-﻿using System.Data;
-using System.Diagnostics;
-using System.Runtime.ConstrainedExecution;
+﻿using System.Diagnostics;
 using Grid = Microsoft.Maui.Controls.Grid;
-using Calculator;
-
 
 namespace CellCraft {
     using Table = Table.Models.Table;
-    using Cell = Table.Models.Cell;
+
     public partial class MainPage : ContentPage {
-        public Dictionary<string, int> identificators = new Dictionary<string, int>();
+        private Dictionary<string, int> identificators = new Dictionary<string, int>();
+
         public MainPage() {
             InitializeComponent();
             CreateGrid();
@@ -27,18 +24,16 @@ namespace CellCraft {
                 HorizontalOptions = LayoutOptions.Center
             };
             grid.Add(label, 0, 0);
+
             for (int col = 1; col < Table.Get().CountColumn + 1; col++) {
-                
-                if (col > 0) {
-                    label = new Label() {
-                        Text = GetColumnName(col),
-                        VerticalOptions = LayoutOptions.Center,
-                        HorizontalOptions = LayoutOptions.Center
-                    };
-                    grid.Add(label, col, 0);
-                    }
-                }
+                label = new Label() {
+                    Text = Table.GetColumnName(col - 1),
+                    VerticalOptions = LayoutOptions.Center,
+                    HorizontalOptions = LayoutOptions.Center
+                };
+                grid.Add(label, col, 0);
             }
+        }
 
         private void AddRowsAndCellEntries() {
             
@@ -57,6 +52,7 @@ namespace CellCraft {
                         VerticalOptions = LayoutOptions.Fill,
                         HorizontalOptions = LayoutOptions.Fill
                     };
+
                     entry.Unfocused += Entry_Unfocused;
                     entry.Focused += Entry_Focused;
                     grid.Add(entry, col, row);
@@ -68,6 +64,7 @@ namespace CellCraft {
             var entry = (Entry)sender;
             var row = Grid.GetRow(entry) - 1;
             var column = Grid.GetColumn(entry) - 1;
+
             entry.Text = Table.Get().GetCell(row, column).ShowFocused();
         }
         private void Entry_Unfocused(object sender, FocusEventArgs e) {
@@ -77,22 +74,21 @@ namespace CellCraft {
             var content = entry.Text;
 
             var cell = Table.Get().GetCell(row, column).Write(content, identificators);
-            entry.Text = cell.Calculate(identificators).ShowUnfocused();
+
+            try {
+                entry.Text = cell.Calculate(identificators).ShowUnfocused();
+            }
+            catch (DivideByZeroException) {
+                entry.Text = "ERROR : Divide by zero. ";
+            }
+            catch (ArgumentException) {
+                entry.Text = "ERROR : Wrong operand. ";
+            }
+            catch (System.NullReferenceException) {
+                entry.Text = "ERROR : Wrong format of expression. ";
+            }
         }
             
-        private string GetColumnName(int colIndex) {
-            int dividend = colIndex;
-            string columnName = string.Empty;
-
-            while (dividend > 0) {
-                int modulo = (dividend - 1) % 26;
-                columnName = Convert.ToChar(65 + modulo) + columnName;
-                dividend = (dividend - modulo) / 26;
-            }
-
-            return columnName;
-        }
-    
         private void SaveButton_Clicked(object sender, EventArgs e) {
             for (int i = 0; i < Table.Get().CountRow; i++) {
                 for (int j = 0; j < Table.Get().CountColumn; j++) {
@@ -119,6 +115,7 @@ namespace CellCraft {
                     VerticalOptions = LayoutOptions.Fill,
                     HorizontalOptions = LayoutOptions.Fill
                 };
+
                 entry.Unfocused += Entry_Unfocused;
                 entry.Focused += Entry_Focused;
                 grid.Add(entry, col, row);
@@ -132,7 +129,7 @@ namespace CellCraft {
             // Add name of column
             var column = grid.ColumnDefinitions.Count();
             var label = new Label {
-                Text = GetColumnName(column),
+                Text = Table.GetColumnName(column - 1),
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center
             };
@@ -145,6 +142,7 @@ namespace CellCraft {
                     VerticalOptions = LayoutOptions.Fill,
                     HorizontalOptions = LayoutOptions.Fill
                 };
+
                 entry.Unfocused += Entry_Unfocused;
                 entry.Focused += Entry_Focused;
                 grid.Add(entry, column, row);
@@ -164,10 +162,5 @@ namespace CellCraft {
                 System.Environment.Exit(0);
             }
         }
-
-        
     }
-
 }
-
-

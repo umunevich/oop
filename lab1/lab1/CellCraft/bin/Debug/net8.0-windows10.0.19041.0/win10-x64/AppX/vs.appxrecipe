@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-27T17:02:39.113</Modified>
+      <Modified>2024-10-27T18:19:14.112</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CellCraft.dll">
       <PackagePath>CellCraft.dll</PackagePath>
-      <Modified>2024-10-27T17:02:37.156</Modified>
+      <Modified>2024-10-27T18:19:13.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CellCraft.exe</PackagePath>
-      <Modified>2024-10-27T17:02:37.244</Modified>
+      <Modified>2024-10-27T18:19:13.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -583,7 +583,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\Calculator\bin\Debug\net8.0\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2024-10-27T17:02:30.660</Modified>
+      <Modified>2024-10-27T18:19:03.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.compatibility\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

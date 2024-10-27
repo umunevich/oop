@@ -5,11 +5,10 @@ namespace Table.Models {
 
     internal class Cell {
 
-        public string id;
+        private string id;
         private int? number;
         private string? formula;
         private bool? formulaResult;
-        private bool isError;
 
         public int? Number {
             get {
@@ -20,17 +19,16 @@ namespace Table.Models {
             }
         }
 
-        public Cell(string id, bool isError = false) {
+        public Cell(string id) {
             this.id = id;
         }
 
         public Cell Write(string content, Dictionary<string, int> ids) {
+
             if (int.TryParse(content, out int result)) {
-                Debug.WriteLine("Write number");
-                Number = result;
+                number = result;
                 formula = null;
                 formulaResult = null;
-                isError = false;
 
                 if (!ids.TryAdd(id, result)) {
                     if (ids.ContainsKey(id)) {
@@ -42,7 +40,6 @@ namespace Table.Models {
                 number = null;
                 formula = content;
                 formulaResult = null;
-                isError = false;
 
                 if (ids.ContainsKey(id)) {
                     ids.Remove(id);
@@ -52,7 +49,7 @@ namespace Table.Models {
                 number = null;
                 formula = null;
                 formulaResult = null;
-                isError = false;
+
                 if (ids.ContainsKey(id)) {
                     ids.Remove(id);
                 }
@@ -61,48 +58,38 @@ namespace Table.Models {
         }
 
         public Cell Calculate(Dictionary<string, int> ids) {
+
             if (!string.IsNullOrWhiteSpace(formula)) {
                 try {
-                    if (Calculator.Evaluate(formula, ids) == 1.0) { // catch exceptions
+                    if (Calculator.Evaluate(formula, ids) == 1.0) {
                         formulaResult = true;
-                        isError = false;
                     }
                     else {
                         formulaResult = false;
-                        isError = false;
                     }
                 }
-                catch (NullReferenceException) {
-                    isError = true;
-                    formulaResult = null;
-                }
-                finally {
+                finally { 
                     number = null;
+                    formulaResult = null;
                 }
             }
             return this;
         }
 
         public string ShowFocused() {
+
             if (!string.IsNullOrWhiteSpace(formula)) {
                 return formula;
             }
             else if (number != null) {
                 return number.ToString();
             }
-            else {
-                return "";
-            }
-            
+            return "";
         }
 
         public string ShowUnfocused() {
-            if (isError) {
-                number = null;
-                formulaResult = null;
-                return "ERROR";
-            }
-            else if (!string.IsNullOrWhiteSpace(formula)) {
+
+            if (!string.IsNullOrWhiteSpace(formula)) {
                 return formulaResult.ToString();
             }
             else if (number != null) {

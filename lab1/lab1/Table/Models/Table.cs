@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Table.Models {
+﻿namespace Table.Models {
      internal class Table {
         private List<List<Cell>> cells;
 
@@ -43,13 +41,14 @@ namespace Table.Models {
 
                 for (int j = 0; j < count_column; j++) {
                     rows.Add(new Cell(GetColumnName(j) + (i + 1).ToString()));
-                    Debug.WriteLine(GetColumnName(j) + (i + 1).ToString());
                 }
                 cells.Add(rows);
             }
         }
 
-        private static string GetColumnName(int colIndex) {
+        private static Table? table;
+
+        public static string GetColumnName(int colIndex) {
             int dividend = colIndex + 1;
             string columnName = string.Empty;
 
@@ -58,11 +57,8 @@ namespace Table.Models {
                 columnName = Convert.ToChar(65 + modulo) + columnName;
                 dividend = (dividend - modulo) / 26;
             }
-
             return columnName;
         }
-
-        private static Table? table;
 
         public static Table Get() {
             if (table == null) {
@@ -80,21 +76,6 @@ namespace Table.Models {
             return cells[row][column];
         }
 
-        public Cell GetCell(string id) {
-            int column = 0;
-            int i = 0;
-
-            while (i < id.Length && char.IsLetter(id[i])) {
-                column = column * 26 + (id[i] - 'A' + 1);
-                i++;
-            }
-            string rowStr = id.Substring(i);
-            int row = 0;
-            int.TryParse(rowStr, out row);
-            Debug.WriteLine($"{row - 1} {column - 1}");
-            return cells[row - 1][column - 1];
-        }
-
         public void AddNewRow(int size) {
 #if DEBUG
             if (size != CountColumn) { 
@@ -103,6 +84,7 @@ namespace Table.Models {
 #endif
             var newRow = new List<Cell>(size);
             CountRow++;
+
             for (int col = 0; col < size; col++) {
                 newRow.Add(new Cell(GetColumnName(col) + CountRow.ToString()));
             }
@@ -115,11 +97,11 @@ namespace Table.Models {
                 throw new ArgumentOutOfRangeException($"Invalid size of new row. Try {size} but actual {CountRow}");
             }
 #endif
+
             for (int row = 0; row < size; row++) {
                 cells[row].Add(new Cell(GetColumnName(CountColumn) + (row + 1).ToString()));
             }
             CountColumn++;
         }
-        
     }
 }
