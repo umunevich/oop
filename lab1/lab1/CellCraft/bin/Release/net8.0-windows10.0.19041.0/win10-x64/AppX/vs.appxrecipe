@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-27T20:51:15.202</Modified>
+      <Modified>2024-10-28T08:57:44.442</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CellCraft.exe</PackagePath>
-      <Modified>2024-10-27T20:51:14.077</Modified>
+      <Modified>2024-11-01T20:48:56.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -583,7 +583,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab1\lab1\CellCraft\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\CellCraft.dll">
       <PackagePath>CellCraft.dll</PackagePath>
-      <Modified>2024-10-27T20:51:15.125</Modified>
+      <Modified>2024-10-28T08:57:44.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.maui.controls.compatibility\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
