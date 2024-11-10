@@ -1,0 +1,15 @@
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\bin\Debug\net8.0\task 4.exe
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\bin\Debug\net8.0\task 4.deps.json
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\bin\Debug\net8.0\task 4.runtimeconfig.json
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\bin\Debug\net8.0\task 4.dll
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\bin\Debug\net8.0\task 4.pdb
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.AssemblyInfoInputs.cache
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.AssemblyInfo.cs
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.csproj.CoreCompileInputs.cache
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.sourcelink.json
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.dll
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\refint\task 4.dll
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.pdb
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\task 4.genruntimeconfig.cache
+D:\Learning\University2\OOP\oop repo\hw 8\hw 8\task 4\obj\Debug\net8.0\ref\task 4.dll
