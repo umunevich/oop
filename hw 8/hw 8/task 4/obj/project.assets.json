@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\task 4-6.csproj",
-      "projectName": "task 4-6",
-      "projectPath": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\task 4-6.csproj",
+      "projectUniqueName": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\task 4.csproj",
+      "projectName": "task 4",
+      "projectPath": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\task 4.csproj",
       "packagesPath": "C:\\Users\\burya\\.nuget\\packages\\",
       "outputPath": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\obj\\",
       "projectStyle": "PackageReference",

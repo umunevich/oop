@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93126429-65BE-40F5-93A7-56544A45589A}|task 4\\task 4.csproj|d:\\learning\\university2\\oop\\oop repo\\hw 8\\hw 8\\task 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93126429-65BE-40F5-93A7-56544A45589A}|task 4\\task 4.csproj|solutionrelative:task 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{689C0B19-2482-44A3-8DA9-696792E890FF}|task 5\\task 5.csproj|d:\\learning\\university2\\oop\\oop repo\\hw 8\\hw 8\\task 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689C0B19-2482-44A3-8DA9-696792E890FF}|task 5\\task 5.csproj|solutionrelative:task 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93126429-65BE-40F5-93A7-56544A45589A}|task 4\\task 4-6.csproj|d:\\learning\\university2\\oop\\oop repo\\hw 8\\hw 8\\task 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93126429-65BE-40F5-93A7-56544A45589A}|task 4\\task 4-6.csproj|solutionrelative:task 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +32,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 5\\Program.cs",
+              "RelativeDocumentMoniker": "task 5\\Program.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 5\\Program.cs",
+              "RelativeToolTip": "task 5\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:57:00.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\Program.cs",
               "RelativeDocumentMoniker": "task 4\\Program.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\hw 8\\hw 8\\task 4\\Program.cs",
               "RelativeToolTip": "task 4\\Program.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAAAGYAAAA/AAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAQwAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:36:04.04Z",
               "EditorCaption": ""

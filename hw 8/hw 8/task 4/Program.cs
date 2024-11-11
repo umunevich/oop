@@ -4,12 +4,9 @@ using System.Text;
 namespace task_4 {
     class Program {
         public static void Main() {
-            // 4
             createAndSaveXmlDocument();
             parsingXmlDocument();
             searchingXmlDocument();
-            // 5
-            parsingWithXmlTextReader();
         }
 
         public static void createAndSaveXmlDocument() {
@@ -96,34 +93,6 @@ namespace task_4 {
             catch (Exception ex) {
                 Console.WriteLine($"{ex.Message}");
             }
-        }
-
-        public static void parsingWithXmlTextReader() {
-            var sb = new StringBuilder();
-            var xmlReader = new XmlTextReader(getFilePath("task4.xml"));
-
-            while (xmlReader.Read()) {
-                switch (xmlReader.NodeType) {
-                    case XmlNodeType.XmlDeclaration:
-                    case XmlNodeType.Element:
-                    case XmlNodeType.Comment:
-                        sb.AppendFormat("{0}: {1} = {2}", xmlReader.NodeType, xmlReader.Name, xmlReader.Value);
-                        sb.AppendLine();
-                        break;
-                    case XmlNodeType.Text:
-                        sb.AppendFormat(" - Value: {0}", xmlReader.Value);
-                        sb.AppendLine();
-                        break;
-                }
-                if (xmlReader.HasAttributes) {
-                    while (xmlReader.MoveToNextAttribute()) {
-                        sb.AppendFormat(" - Attribute: {0} = {1}", xmlReader.Name, xmlReader.Value);
-                        sb.AppendLine();
-                    }
-                }
-            }
-            xmlReader.Close();
-            Console.WriteLine(sb.ToString());
         }
     }
 }
