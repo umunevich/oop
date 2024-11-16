@@ -1,0 +1,15 @@
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\bin\Debug\net8.0\ChristmasTree.exe
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\bin\Debug\net8.0\ChristmasTree.deps.json
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\bin\Debug\net8.0\ChristmasTree.runtimeconfig.json
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\bin\Debug\net8.0\ChristmasTree.dll
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\bin\Debug\net8.0\ChristmasTree.pdb
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.AssemblyInfoInputs.cache
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.AssemblyInfo.cs
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.csproj.CoreCompileInputs.cache
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.sourcelink.json
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.dll
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\refint\ChristmasTree.dll
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.pdb
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ChristmasTree.genruntimeconfig.cache
+D:\Learning\University2\OOP\oop repo\ChristmasTree\ChristmasTree\obj\Debug\net8.0\ref\ChristmasTree.dll

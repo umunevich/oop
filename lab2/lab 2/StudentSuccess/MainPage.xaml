@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentSuccess.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="BurlyWood">
+
+    <Grid
+        Padding="5"
+        ColumnSpacing="5"
+        RowSpacing="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="19"/>
+            <RowDefinition Height="0.9*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.8*"/>
+            <ColumnDefinition Width="0.2*"/>
+        </Grid.ColumnDefinitions>
+        
+        <HorizontalStackLayout
+            Grid.Row="0"
+            Grid.Column="0"
+            Spacing="5">
+            <Button
+                x:Name="ChooseFile"
+                Text="Вибрати файл"
+                Clicked="ChooseFileButton_Clicked"/>
+            <Button
+                x:Name="SaveXML"
+                Text="Зберегти як XML"/>
+            <Button
+                x:Name="SaveHTML"
+                Text="Зберегти як HTML"/>
+            <Button
+                x:Name="Search"
+                Text="Пошук"/>
+        </HorizontalStackLayout>
+        <Label Grid.Row="1" Grid.Column="0"
+               x:Name="FileName"
+               TextColor="Black"
+               Text=""/>
+        <ScrollView
+            Orientation="Horizontal"
+            Grid.Row="2"
+            Grid.Column="0">
+            <Editor
+                x:Name="XMLEditor"
+                BackgroundColor="Beige"
+                FontFamily="Monaco"
+                FontSize="15"
+                TextColor="Black"
+                IsSpellCheckEnabled="False"
+                CharacterSpacing="1"
+            ></Editor>
+        </ScrollView>
+        <HorizontalStackLayout
+            Grid.Row="0"
+            Grid.Column="1"
+            Spacing="5"
+            FlowDirection="RightToLeft">
+            <Button
+                x:Name="Exit"
+                Text="Вийти"
+                Clicked="ExitButton_Clicked"/>
+            <Button
+                x:Name="Info"
+                Text="Довідка"
+                Clicked="HelpButton_Clicked"/>    
+        </HorizontalStackLayout>
+        <Label Grid.Row="1" Grid.Column="1"
+            TextColor="Black"
+            Text="Нещодавно відкриті"/>
+        <ListView
+            x:Name="RecentlyFiles"
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="Beige"
+            SeparatorColor="SandyBrown">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="bnm"
+                              TextColor="Black"></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </Grid>
+
+</ContentPage>

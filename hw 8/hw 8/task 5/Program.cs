@@ -6,7 +6,6 @@ namespace task_5 {
     class Program {
         public static void Main() {
             parsingWithXmlTextReader();
-            searchingXmlDocument();
         }
 
         public static string getFilePath(string fileName) {
