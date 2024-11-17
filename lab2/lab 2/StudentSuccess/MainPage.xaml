@@ -25,7 +25,7 @@
             Grid.Column="0"
             Spacing="5">
             <Button
-                x:Name="ChooseFile"
+                x:Name="ChooseFileButton"
                 Text="Вибрати файл"
                 Clicked="ChooseFileButton_Clicked"/>
             <Button
@@ -35,8 +35,9 @@
                 x:Name="SaveHTML"
                 Text="Зберегти як HTML"/>
             <Button
-                x:Name="Search"
-                Text="Пошук"/>
+                x:Name="SearchButton"
+                Text="Пошук"
+                Clicked="SearchButton_Clicked"/>
         </HorizontalStackLayout>
         <Label Grid.Row="1" Grid.Column="0"
                x:Name="FileName"
@@ -81,7 +82,7 @@
             SeparatorColor="SandyBrown">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="bnm"
+                    <TextCell Text="{Binding Name}"
                               TextColor="Black"></TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

@@ -57,6 +57,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Remove="SearchPage.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\Monaco.ttf" />
 	</ItemGroup>
 
@@ -64,6 +68,12 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="SearchPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </Content>
 	</ItemGroup>
 
 </Project>

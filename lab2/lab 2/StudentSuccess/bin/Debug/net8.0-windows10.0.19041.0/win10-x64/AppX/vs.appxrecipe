@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-16T19:18:22.279</Modified>
+      <Modified>2024-11-17T13:43:11.010</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-15T21:55:57.222</Modified>
+      <Modified>2024-11-17T10:03:56.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\StudentSuccess.runtimeconfig.json">
       <PackagePath>StudentSuccess.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\StudentSuccess.dll">
       <PackagePath>StudentSuccess.dll</PackagePath>
-      <Modified>2024-11-16T19:18:22.036</Modified>
+      <Modified>2024-11-17T13:43:10.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>StudentSuccess.exe</PackagePath>
-      <Modified>2024-11-16T19:18:22.039</Modified>
+      <Modified>2024-11-17T13:43:10.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -291,7 +291,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab 2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\StudentSuccess.deps.json">
       <PackagePath>StudentSuccess.deps.json</PackagePath>
-      <Modified>2024-11-15T21:55:56.968</Modified>
+      <Modified>2024-11-17T10:03:56.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\burya\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

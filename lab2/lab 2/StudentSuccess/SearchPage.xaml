@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentSuccess.SearchPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="BurlyWood">
+    <ScrollView
+        Orientation="Vertical">
+        <VerticalStackLayout
+            Spacing="10">
+            <Label
+                Text="Фільтри"
+                TextColor="Black"
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                Padding="30"
+                FontAttributes="Bold"/>
+            <HorizontalStackLayout>
+                <Label
+                    Text="Оберіть тип пошуку"
+                    TextColor="Black"
+                    FontSize="16"
+                    Padding="30"/>
+                <Picker
+                    x:Name="StrategyPicker"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    WidthRequest="300"
+                    HeightRequest="50"
+                    FontSize="16">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>SAX API</x:String>
+                            <x:String>DOM API</x:String>
+                            <x:String>LINQ to XML</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+
+                </Picker>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label
+                    Text="Оберіть атрибут"
+                    TextColor="Black"
+                    FontSize="16"
+                    Padding="30"/>
+                <Picker
+                    x:Name="AttributePicker"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    WidthRequest="300"
+                    HeightRequest="50"
+                    FontSize="16">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Факультет</x:String>
+                            <x:String>Кафедра</x:String>
+                            <x:String>Дисципліна</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                    
+                </Picker>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Label
+                    Text="Введіть значення"
+                    TextColor="Black"
+                    FontSize="16"
+                    Padding="30"/>
+                <Entry
+                    x:Name="EntryValue"
+                    Text=""
+                    TextColor="Black"
+                    FontSize="16"
+                    BackgroundColor="Beige"
+                    WidthRequest="300"
+                    HeightRequest="50"/>
+            </HorizontalStackLayout>
+            <Button 
+                x:Name="ApplyButton"
+                Text="Застосувати"
+                HorizontalOptions="Center"
+                Clicked="ApplyButton_Clicked"/>
+            <Label
+                Text="Output: "
+                TextColor="Black"
+                FontSize="16"
+                Padding="30"/>
+            <Label
+                Text=""
+                TextColor="Black"
+                FontSize="16"
+                Padding="30"
+                BackgroundColor="Beige"/>
+        </VerticalStackLayout>
+        
+
+    </ScrollView>
+    
+</ContentPage>

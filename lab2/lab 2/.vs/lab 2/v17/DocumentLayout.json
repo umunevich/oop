@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\studentsuccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\studentsuccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\searchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\searchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\searchengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\searchengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab 2\\studentsuccess\\models\\searchengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05856C-FBFF-45B5-AD10-678F9B8BF951}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\searchengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,92 +62,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MainPage.xaml",
-              "RelativeDocumentMoniker": "StudentSuccess\\MainPage.xaml",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MainPage.xaml",
-              "RelativeToolTip": "StudentSuccess\\MainPage.xaml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T21:59:13.971Z",
+              "DocumentIndex": 0,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudentSuccess\\SearchPage.xaml.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\SearchPage.xaml.cs",
+              "RelativeToolTip": "StudentSuccess\\SearchPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:27:28.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Department.cs",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "StudentSuccess\\Models\\Department.cs",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\Department.cs",
-              "RelativeToolTip": "StudentSuccess\\Models\\Department.cs",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "StudentSuccess\\MauiProgram.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MauiProgram.cs",
+              "RelativeToolTip": "StudentSuccess\\MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T20:13:11.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Faculty.cs",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\Faculty.cs",
-              "RelativeDocumentMoniker": "StudentSuccess\\Models\\Faculty.cs",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\Faculty.cs",
-              "RelativeToolTip": "StudentSuccess\\Models\\Faculty.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T20:11:24.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "University.cs",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\University.cs",
-              "RelativeDocumentMoniker": "StudentSuccess\\Models\\University.cs",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\University.cs",
-              "RelativeToolTip": "StudentSuccess\\Models\\University.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T20:10:46.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "StudentSuccess\\Models\\Student.cs",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\Student.cs",
-              "RelativeToolTip": "StudentSuccess\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T20:08:40.736Z"
+              "WhenOpened": "2024-11-17T11:35:35.435Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\App.xaml.cs",
+              "RelativeDocumentMoniker": "StudentSuccess\\App.xaml.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\App.xaml.cs",
+              "RelativeToolTip": "StudentSuccess\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:35:01.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentSuccess.csproj",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\StudentSuccess.csproj",
+              "RelativeDocumentMoniker": "StudentSuccess\\StudentSuccess.csproj",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\StudentSuccess.csproj",
+              "RelativeToolTip": "StudentSuccess\\StudentSuccess.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T10:00:39.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "StudentSuccess\\SearchPage.xaml",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\SearchPage.xaml",
+              "RelativeToolTip": "StudentSuccess\\SearchPage.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T10:01:17.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MainPage.xaml",
+              "RelativeDocumentMoniker": "StudentSuccess\\MainPage.xaml",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MainPage.xaml",
+              "RelativeToolTip": "StudentSuccess\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T21:59:13.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SearchStrategy.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\SearchStrategy.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\SearchStrategy.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\SearchStrategy.cs",
               "RelativeToolTip": "StudentSuccess\\Models\\SearchStrategy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAuwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T20:04:37.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SearchEngine.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\SearchEngine.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\SearchEngine.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Models\\SearchEngine.cs",
               "RelativeToolTip": "StudentSuccess\\Models\\SearchEngine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T20:04:02.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\App.xaml",
               "RelativeDocumentMoniker": "StudentSuccess\\App.xaml",
@@ -159,28 +172,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "StudentSuccess\\Resources\\Styles\\Styles.xaml",
-              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "StudentSuccess\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-13T09:33:48.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\MainPage.xaml.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab 2\\StudentSuccess\\MainPage.xaml.cs",
               "RelativeToolTip": "StudentSuccess\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAiwBkAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:52:05.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:52:05.523Z"
             }
           ]
         }

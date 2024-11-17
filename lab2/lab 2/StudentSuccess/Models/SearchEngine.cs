@@ -8,5 +8,6 @@ namespace StudentSuccess.Models
 {
     class SearchEngine
     {
+
     }
 }

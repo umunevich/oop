@@ -1,8 +1,8 @@
-﻿using Microsoft.Maui.Storage;
-
-namespace StudentSuccess {
+﻿namespace StudentSuccess {
     public partial class MainPage : ContentPage {
+        List<string> filePaths = new List<string>();
 
+        int currentFile = 0;
         public MainPage() {
             InitializeComponent();
         }
@@ -18,12 +18,24 @@ namespace StudentSuccess {
             });
 
             if (result == null) {
+                await DisplayAlert("Помилка", "Файл не вибрано", "Ок");
                 return;
             }
 
             FileName.Text = result.FileName;
-            var path = result.FullPath;
-            XMLEditor.Text = path;
+            filePaths.Add(result.FullPath);
+            var fullPath = result.FullPath;
+            currentFile = filePaths.Count() - 1;
+
+            var content = File.ReadAllText(filePaths[currentFile]);
+            XMLEditor.Text = content;
+
+            //RecentlyFiles.ItemsSource = filePaths;
+        }
+
+        public async void SearchButton_Clicked(object sender, EventArgs e) {
+            var searchPage = new SearchPage();
+            await Navigation.PushAsync(searchPage);
         }
 
         private async void HelpButton_Clicked(object sender, EventArgs e) {
