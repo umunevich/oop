@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\domanalizestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\domanalizestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\linqanalizestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,18 +82,17 @@
               "RelativeToolTip": "StudentSuccess\\Models\\LinqAnalizeStrategy.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T20:12:34.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T20:12:34.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DomAnalizeStrategy.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\DomAnalizeStrategy.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\DomAnalizeStrategy.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\DomAnalizeStrategy.cs",
               "RelativeToolTip": "StudentSuccess\\Models\\DomAnalizeStrategy.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBYAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T19:59:00.371Z",
               "EditorCaption": ""
@@ -220,13 +219,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\MainPage.xaml",
               "RelativeDocumentMoniker": "StudentSuccess\\MainPage.xaml",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\MainPage.xaml",
               "RelativeToolTip": "StudentSuccess\\MainPage.xaml",
-              "ViewState": "AQIAADgAAAAAAAAAAAApwEoAAAAmAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAEoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-17T19:25:22.566Z",
               "EditorCaption": ""

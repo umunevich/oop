@@ -14,7 +14,7 @@ namespace StudentSuccess.Models {
                     foreach (XmlNode child in node.ChildNodes) {
                         sb.AppendFormat($"{child.Name} : {child.Attributes["Name"].Value}");
                         if (child.Name == Enum.GetName(typeof(Attribute), 3)) {
-                            sb.AppendFormat($"Grade: {child.Attributes["Grade"]?.Value}");
+                            sb.AppendFormat($" Grade: {child.Attributes["Grade"]?.Value}");
                         }
                         sb.AppendLine();
                     }
