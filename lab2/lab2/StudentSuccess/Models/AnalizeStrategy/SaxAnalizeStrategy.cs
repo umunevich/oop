@@ -1,7 +1,9 @@
 ﻿using System.Text;
 using System.Xml;
+using StudentSuccess.Models.AnalizeStrategy;
 
-namespace StudentSuccess.Models {
+namespace StudentSuccess.Models.AnalizeStrategy
+{
     internal class SaxAnalizeStrategy : IAnalizeStrategy{
         public string Search(string filePath, Attribute attribute, string value) {
             var sb = new StringBuilder();

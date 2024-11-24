@@ -1,7 +1,9 @@
 ﻿using System.Text;
 using System.Xml;
+using StudentSuccess.Models.AnalizeStrategy;
 
-namespace StudentSuccess.Models {
+namespace StudentSuccess.Models.AnalizeStrategy
+{
     internal class DomAnalizeStrategy : IAnalizeStrategy {
         public string Search(string filePath, Attribute attribute, string value) {
             var xmlDoc = new XmlDocument();

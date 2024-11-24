@@ -29,11 +29,13 @@
             Text="Вибрати файл"
             Clicked="ChooseFileButton_Clicked"/>
             <Button
-            x:Name="SaveXML"
-            Text="Зберегти як XML"/>
+            x:Name="SaveButton"
+            Text="Зберегти"
+            Clicked="SaveButton_Clicked"/>
             <Button
-            x:Name="SaveHTML"
-            Text="Зберегти як HTML"/>
+            x:Name="TransformToHtmlButton"
+            Text="Трансформувати як HTML"
+            Clicked="TransformToHtmlButton_Clicked"/>
             <Picker
                     x:Name="StrategyPicker"
                     TextColor="Black"
@@ -67,18 +69,22 @@
 
             </Picker>
             <Entry
-                    x:Name="EntryValue"
-                    Text=""
-                    TextColor="Black"
-                    FontSize="16"
-                    BackgroundColor="Beige"
-                    WidthRequest="150"
-                    HeightRequest="38"/>
+                x:Name="EntryValue"
+                Text=""
+                TextColor="Black"
+                FontSize="16"
+                BackgroundColor="Beige"
+                WidthRequest="150"
+                HeightRequest="38"/>
 
             <Button
-                    x:Name="SearchButton"
-                    Text="Пошук"
-                    Clicked="SearchButton_Clicked"/>
+                x:Name="SearchButton"
+                Text="Пошук"
+                Clicked="SearchButton_Clicked"/>
+            <Button
+                x:Name="ClearButton"
+                Text="Очистити"
+                Clicked="ClearButton_Clicked"/>
         </HorizontalStackLayout>
         <Label Grid.Row="1" Grid.Column="0"
            x:Name="FileName"
@@ -120,14 +126,20 @@
         Grid.Row="2"
         Grid.Column="1"
         BackgroundColor="Beige"
-        SeparatorColor="SandyBrown">
+        SeparatorColor="SandyBrown"
+        ItemSelected="RecentlyFiles_Selected">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}"/>
+            </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}"
-                          TextColor="Black"></TextCell>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding}" TextColor="Black" FontSize="14"/>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
         </ListView>
     </Grid>
 

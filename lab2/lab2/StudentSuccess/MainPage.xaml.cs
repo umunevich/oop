@@ -1,10 +1,11 @@
-﻿using StudentSuccess.Models;
+﻿using Transform = StudentSuccess.Models.Transform;
+using StudentSuccess.Models.AnalizeStrategy;
+using Logger = StudentSuccess.Models.Logger;
 
-namespace StudentSuccess {
+namespace StudentSuccess
+{
     public partial class MainPage : ContentPage {
-        List<string> filePaths = new List<string>();
-
-        int currentFile = 0;
+        Dictionary<string, string> filePaths = new Dictionary<string, string>(); // short path, full path
         public MainPage() {
             InitializeComponent();
         }
@@ -24,18 +25,49 @@ namespace StudentSuccess {
                 return;
             }
 
-            FileName.Text = result.FileName;
-            filePaths.Add(result.FullPath);
-            var fullPath = result.FullPath;
-            currentFile = filePaths.Count() - 1;
+            try {
+                filePaths.Add(result.FileName, result.FullPath);
+            }
+            catch (Exception) {
+                await DisplayAlert("Помилка", "Файл вже доданий до \"Нещодавно вікритих\"", "Ок");
+            }
 
-            var content = File.ReadAllText(filePaths[currentFile]);
+            FileName.Text = result.FileName;
+            var content = File.ReadAllText(filePaths[FileName.Text]);
             XMLEditor.Text = content;
 
-            //RecentlyFiles.ItemsSource = filePaths;
+            RecentlyFiles.ItemsSource = filePaths.Keys.ToList();
+            Logger.instance.Log("Відкриття", "Файл " +  FileName.Text);
         }
 
-        public async void SearchButton_Clicked(object sender, EventArgs e) {
+        private void RecentlyFiles_Selected(object sender, SelectedItemChangedEventArgs e) {
+            if (e.SelectedItem != null) {
+                FileName.Text = e.SelectedItem.ToString();
+                var content = File.ReadAllText(filePaths[FileName.Text]);
+                XMLEditor.Text = content;
+                Logger.instance.Log("Відкриття", "Файл " + FileName.Text);
+            }   
+        }
+
+        private void SaveButton_Clicked(object sender, EventArgs e) {
+            var content = XMLEditor.Text;
+            File.WriteAllText(filePaths[FileName.Text], content);
+            Logger.instance.Log("Збереження", "Файл " + FileName.Text);
+        }
+
+        private async void TransformToHtmlButton_Clicked(object sender, EventArgs e) {
+            string[] arr = FileName.Text.Split('.');
+            var output_file = arr[0] + ".html";
+            try {
+                Transform.TransformTo("D:/Learning/University2/OOP/oop repo/lab2/lab2/Transform/toHtml.xsl", filePaths[FileName.Text], "D:/Learning/University2/OOP/oop repo/lab2/lab2/Transform/OutputHtml/" + output_file);
+            }
+            catch {
+                await DisplayAlert("Помилка", "У файлі присутні помилки", "Ок");
+            }
+            Logger.instance.Log("Трансформація", "Збережено у файл " + output_file);
+        }
+
+        private async void SearchButton_Clicked(object sender, EventArgs e) {
             AnalizeContext ac = new AnalizeContext();
             switch(StrategyPicker.SelectedIndex) {
                 case 0:
@@ -48,19 +80,27 @@ namespace StudentSuccess {
                     ac.SetStrategy(new LinqAnalizeStrategy());
                     break;
             }
-            Models.Attribute attr = new Models.Attribute();
+            Models.AnalizeStrategy.Attribute attr = new Models.AnalizeStrategy.Attribute();
             switch (AttributePicker.SelectedIndex){
                 case 0:
-                    attr = Models.Attribute.Faculty;
+                    attr = Models.AnalizeStrategy.Attribute.Faculty;
                     break;
                 case 1:
-                    attr = Models.Attribute.Department;
+                    attr = Models.AnalizeStrategy.Attribute.Department;
                     break;
                 case 2:
-                    attr = Models.Attribute.Discipline;
+                    attr = Models.AnalizeStrategy.Attribute.Discipline;
                     break;
             }
-            await DisplayAlert("Результат", ac.Search(filePaths[currentFile], attr, EntryValue.Text), "Ок");
+            Logger.instance.Log("Пошук", "У файлі " + FileName.Text);
+
+            await DisplayAlert("Результат", ac.Search(filePaths[FileName.Text], attr, EntryValue.Text), "Ок");
+        }
+
+        private void ClearButton_Clicked(object sender, EventArgs e) {
+            StrategyPicker.SelectedItem = null;
+            AttributePicker.SelectedItem = null;
+            EntryValue.Text = null;
         }
 
         private async void HelpButton_Clicked(object sender, EventArgs e) {
