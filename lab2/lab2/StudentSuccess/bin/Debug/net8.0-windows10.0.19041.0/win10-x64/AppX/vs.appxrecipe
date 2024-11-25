@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Learning\University2\OOP\oop repo\lab2\lab2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-24T19:07:03.047</Modified>
+      <Modified>2024-11-25T07:16:02.232</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab2\StudentSuccess\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\StudentSuccess.dll">
       <PackagePath>StudentSuccess.dll</PackagePath>
-      <Modified>2024-11-24T19:07:02.808</Modified>
+      <Modified>2024-11-25T07:15:59.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab2\StudentSuccess\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>StudentSuccess.exe</PackagePath>
-      <Modified>2024-11-24T19:07:02.810</Modified>
+      <Modified>2024-11-25T07:15:59.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Learning\University2\OOP\oop repo\lab2\lab2\StudentSuccess\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

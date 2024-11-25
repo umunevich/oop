@@ -93,8 +93,14 @@ namespace StudentSuccess
                     break;
             }
             Logger.instance.Log("Пошук", "У файлі " + FileName.Text);
-
-            await DisplayAlert("Результат", ac.Search(filePaths[FileName.Text], attr, EntryValue.Text), "Ок");
+            string result;
+            try {
+                result = ac.Search(filePaths[FileName.Text], attr, EntryValue.Text);
+            }
+            catch (Exception) {
+                result = "У файлі присутні помилки";
+            }
+            await DisplayAlert("Результат", result, "Ок");
         }
 
         private void ClearButton_Clicked(object sender, EventArgs e) {

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\other.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\other.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\analizestrategy\\analizestrategy.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\analizestrategy\\analizestrategy.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\analizestrategy\\domanalizestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\analizestrategy\\domanalizestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\studentsuccess\\models\\other.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\other.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\studentsuccess\\models\\analizestrategy\\analizestrategy.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|solutionrelative:studentsuccess\\models\\analizestrategy\\analizestrategy.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1513EA31-7D0E-406E-AA81-7BC07F33FCC1}|StudentSuccess\\StudentSuccess.csproj|d:\\learning\\university2\\oop\\oop repo\\lab2\\lab2\\studentsuccess\\models\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,31 +90,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Other.cd",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\Other.cd",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\Other.cd",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\Other.cd",
               "RelativeToolTip": "StudentSuccess\\Models\\Other.cd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2024-11-24T19:14:05.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:14:05.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AnalizeStrategy.cd",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\AnalizeStrategy\\AnalizeStrategy.cd",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\AnalizeStrategy\\AnalizeStrategy.cd",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\AnalizeStrategy\\AnalizeStrategy.cd",
               "RelativeToolTip": "StudentSuccess\\Models\\AnalizeStrategy\\AnalizeStrategy.cd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2024-11-24T19:12:29.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:12:29.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\Logger.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\Logger.cs",
@@ -135,8 +133,7 @@
               "RelativeToolTip": "StudentSuccess\\Models\\AnalizeStrategy\\LinqAnalizeStrategy.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAYwBcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:05:26.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T17:05:26.608Z"
             },
             {
               "$type": "Document",
@@ -160,18 +157,17 @@
               "RelativeToolTip": "StudentSuccess\\Models\\Transform.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:13:51.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T13:13:51.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DomAnalizeStrategy.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\AnalizeStrategy\\DomAnalizeStrategy.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\Models\\AnalizeStrategy\\DomAnalizeStrategy.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\Models\\AnalizeStrategy\\DomAnalizeStrategy.cs",
               "RelativeToolTip": "StudentSuccess\\Models\\AnalizeStrategy\\DomAnalizeStrategy.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAwwAcAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T13:00:45.464Z",
               "EditorCaption": ""
@@ -186,8 +182,7 @@
               "RelativeToolTip": "StudentSuccess\\Models\\AnalizeStrategy\\SaxAnalizeStrategy.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAwwAcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:00:27.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T13:00:27.34Z"
             },
             {
               "$type": "Document",
@@ -199,8 +194,7 @@
               "RelativeToolTip": "StudentSuccess\\Models\\AnalizeStrategy\\AnalizeStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:34:15.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:34:15.265Z"
             },
             {
               "$type": "Document",
@@ -224,8 +218,7 @@
               "RelativeToolTip": "StudentSuccess\\MauiProgram.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAA0wA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:31:43.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:31:43.589Z"
             },
             {
               "$type": "Document",
@@ -237,8 +230,7 @@
               "RelativeToolTip": "StudentSuccess\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:31:30.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:31:30.921Z"
             },
             {
               "$type": "Document",
@@ -250,8 +242,7 @@
               "RelativeToolTip": "StudentSuccess\\AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:31:27.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:31:27.25Z"
             },
             {
               "$type": "Document",
@@ -279,13 +270,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "StudentSuccess\\MainPage.xaml.cs",
               "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\lab2\\lab2\\StudentSuccess\\MainPage.xaml.cs",
               "RelativeToolTip": "StudentSuccess\\MainPage.xaml.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAADwv0AAAABHAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAYwGMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T19:27:27.902Z",
               "EditorCaption": ""
