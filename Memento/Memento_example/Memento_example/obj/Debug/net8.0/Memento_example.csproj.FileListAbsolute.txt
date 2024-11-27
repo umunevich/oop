@@ -1,0 +1,15 @@
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\bin\Debug\net8.0\Memento_example.exe
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\bin\Debug\net8.0\Memento_example.deps.json
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\bin\Debug\net8.0\Memento_example.runtimeconfig.json
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\bin\Debug\net8.0\Memento_example.dll
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\bin\Debug\net8.0\Memento_example.pdb
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.AssemblyInfoInputs.cache
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.AssemblyInfo.cs
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.csproj.CoreCompileInputs.cache
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.sourcelink.json
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.dll
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\refint\Memento_example.dll
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.pdb
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\Memento_example.genruntimeconfig.cache
+D:\Learning\University2\OOP\oop repo\Memento\Memento_example\Memento_example\obj\Debug\net8.0\ref\Memento_example.dll

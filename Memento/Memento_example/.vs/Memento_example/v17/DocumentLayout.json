@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|d:\\learning\\university2\\oop\\oop repo\\memento\\memento_example\\memento_example\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|solutionrelative:memento_example\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|d:\\learning\\university2\\oop\\oop repo\\memento\\memento_example\\memento_example\\caretaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|solutionrelative:memento_example\\caretaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|d:\\learning\\university2\\oop\\oop repo\\memento\\memento_example\\memento_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|solutionrelative:memento_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|d:\\learning\\university2\\oop\\oop repo\\memento\\memento_example\\memento_example\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|solutionrelative:memento_example\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|d:\\learning\\university2\\oop\\oop repo\\memento\\memento_example\\memento_example\\memento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823836D8-DC9E-422B-898B-727B4618248C}|Memento_example\\Memento_example.csproj|solutionrelative:memento_example\\memento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "Memento_example\\ClassDiagram.cd",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\ClassDiagram.cd",
+              "RelativeToolTip": "Memento_example\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-27T23:16:14.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Caretaker.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Caretaker.cs",
+              "RelativeDocumentMoniker": "Memento_example\\Caretaker.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Caretaker.cs",
+              "RelativeToolTip": "Memento_example\\Caretaker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:55:30.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Memento.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Memento.cs",
+              "RelativeDocumentMoniker": "Memento_example\\Memento.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Memento.cs",
+              "RelativeToolTip": "Memento_example\\Memento.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:44:59.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Race.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Race.cs",
+              "RelativeDocumentMoniker": "Memento_example\\Race.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Race.cs",
+              "RelativeToolTip": "Memento_example\\Race.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:16:02.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Program.cs",
+              "RelativeDocumentMoniker": "Memento_example\\Program.cs",
+              "ToolTip": "D:\\Learning\\University2\\OOP\\oop repo\\Memento\\Memento_example\\Memento_example\\Program.cs",
+              "RelativeToolTip": "Memento_example\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:12:45.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
